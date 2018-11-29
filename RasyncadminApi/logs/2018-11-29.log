@@ -1,0 +1,592 @@
+2018-11-29 09:54:17,693 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:54:17,795 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-11-29 09:54:17,837 - INFO - 重登管理员
+2018-11-29 09:54:17,837 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-11-29 09:54:17,837 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1541558118, 'plat_version': 0}
+2018-11-29 09:54:29,298 - INFO - 更新服务器信息
+2018-11-29 09:54:29,298 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543456469.2931833', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 09:55:05,537 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:55:05,540 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 500 0
+2018-11-29 09:55:05,541 - INFO - 更新服务器信息
+2018-11-29 09:55:05,541 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543456505.531256', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 09:56:08,198 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:56:08,218 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 363
+2018-11-29 09:56:08,241 - INFO - 获取服务器实时监控信息
+2018-11-29 09:56:08,241 - INFO - {"action": "performance", "id": "1543456568.1958404", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:56:08,241 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130680774656, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 56, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 0, 'upSpeed': 12192}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1543456568.1958404'}
+2018-11-29 09:56:11,939 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:56:11,944 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1083
+2018-11-29 09:56:11,982 - INFO - 获取服务器信息
+2018-11-29 09:56:11,982 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543456571.9370542", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:56:11,982 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456571.9370542'}
+2018-11-29 09:56:19,177 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:56:19,180 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 500 0
+2018-11-29 09:56:19,181 - INFO - 更新服务器信息
+2018-11-29 09:56:19,181 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543456579.171468', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 09:57:12,207 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:57:12,211 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 09:57:12,234 - INFO - 更新服务器信息
+2018-11-29 09:57:12,234 - INFO - {"action": "UPDATE_SERVER", "id": "1543456632.2015011", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 09:57:12,234 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456632.2015011'}
+2018-11-29 09:57:53,214 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:57:53,218 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1083
+2018-11-29 09:57:53,258 - INFO - 获取服务器信息
+2018-11-29 09:57:53,258 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543456673.2118468", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:57:53,259 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456673.2118468'}
+2018-11-29 09:58:41,371 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:41,398 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 363
+2018-11-29 09:58:41,421 - INFO - 获取服务器实时监控信息
+2018-11-29 09:58:41,421 - INFO - {"action": "performance", "id": "1543456721.368601", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:41,421 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130665865216, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 49, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 1056, 'upSpeed': 480}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1543456721.368601'}
+2018-11-29 09:58:41,438 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:41,441 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-11-29 09:58:41,466 - INFO - 获取服务器license激活信息
+2018-11-29 09:58:41,466 - INFO - {"action": "license", "id": "1543456721.4366052", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:41,466 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1543456721.4366052'}
+2018-11-29 09:58:41,488 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:41,492 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1082
+2018-11-29 09:58:41,529 - INFO - 获取服务器信息
+2018-11-29 09:58:41,529 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543456721.487608", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:41,529 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456721.487608'}
+2018-11-29 09:58:41,546 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:41,548 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-11-29 09:58:41,569 - INFO - 更新服务器信息
+2018-11-29 09:58:41,569 - INFO - {"action": "UPDATE_SERVER", "id": "1543456721.540611", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 09:58:41,569 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456721.540611'}
+2018-11-29 09:58:41,586 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:41,899 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-11-29 09:58:41,921 - INFO - 关闭传输服务器
+2018-11-29 09:58:41,922 - INFO - {"action": "shutdown", "id": "1543456721.5856135", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:41,922 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1543456721.5856135'}
+2018-11-29 09:58:41,937 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:43,553 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 151
+2018-11-29 09:58:43,575 - INFO - 启动传输服务器
+2018-11-29 09:58:43,575 - INFO - {"action": "start", "id": "1543456721.9366336", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:43,575 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1543456721.9366336'}
+2018-11-29 09:58:43,593 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 09:58:48,491 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 153
+2018-11-29 09:58:48,527 - INFO - 重启传输服务器
+2018-11-29 09:58:48,527 - INFO - {"action": "restart", "id": "1543456723.5927284", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 09:58:48,527 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1543456723.5927284'}
+2018-11-29 10:00:52,561 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:00:52,564 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:00:52,586 - INFO - 更新服务器信息
+2018-11-29 10:00:52,586 - INFO - {"action": "UPDATE_SERVER", "id": "1543456852.5551045", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 10:00:52,586 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543456852.5551045'}
+2018-11-29 10:03:13,236 - INFO - 更新服务器信息
+2018-11-29 10:03:13,237 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543456993.2311509', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:03:44,206 - INFO - 更新服务器信息
+2018-11-29 10:03:44,206 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457024.198922', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:04:03,540 - INFO - 更新服务器信息
+2018-11-29 10:04:03,541 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457043.537028', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:04:16,099 - INFO - 更新服务器信息
+2018-11-29 10:04:16,100 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457056.0967464', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:04:39,125 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:04:39,129 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:04:39,153 - INFO - 更新服务器信息
+2018-11-29 10:04:39,154 - INFO - {"action": "UPDATE_SERVER", "id": "1543457079.1030626", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 10:04:48,924 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:04:48,927 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:04:48,950 - INFO - 更新服务器信息
+2018-11-29 10:04:48,950 - INFO - {"action": "UPDATE_SERVER", "id": "1543457088.9176238", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 10:05:05,808 - INFO - 更新服务器信息
+2018-11-29 10:05:05,808 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457105.8045897', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:05:18,589 - INFO - 更新服务器信息
+2018-11-29 10:05:18,590 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457118.5863209', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:05:30,984 - INFO - 更新服务器信息
+2018-11-29 10:05:30,984 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457130.9800296', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:07:53,933 - INFO - 更新服务器信息
+2018-11-29 10:07:53,934 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457273.930206', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:08:26,582 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:26,597 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 364
+2018-11-29 10:08:26,619 - INFO - 获取服务器实时监控信息
+2018-11-29 10:08:26,619 - INFO - {"action": "performance", "id": "1543457306.5800734", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:26,619 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130640269312, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 49, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 960, 'upSpeed': 2120}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1543457306.5800734'}
+2018-11-29 10:08:26,635 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:26,639 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-11-29 10:08:26,661 - INFO - 获取服务器license激活信息
+2018-11-29 10:08:26,661 - INFO - {"action": "license", "id": "1543457306.6340764", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:26,661 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1543457306.6340764'}
+2018-11-29 10:08:26,678 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:26,682 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1083
+2018-11-29 10:08:26,719 - INFO - 获取服务器信息
+2018-11-29 10:08:26,720 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543457306.6770787", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:26,720 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543457306.6770787'}
+2018-11-29 10:08:26,736 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:26,739 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-11-29 10:08:26,759 - INFO - 更新服务器信息
+2018-11-29 10:08:26,759 - INFO - {"action": "UPDATE_SERVER", "id": "1543457306.731082", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": "{\"socketBufSize\": 262144, \"apiport\": 8090, \"packageSize\": 1200, \"connTimeout\": 120, \"downloadOccupied\": 1, \"uploadSpeed\": 10000, \"portBegin\": 1, \"outbound\": 104857600, \"compression\": 1, \"enableProxy\": 1, \"ipFilter\": null, \"id\": 1000, \"port\": 2121, \"ipFilterExclude\": null, \"version\": \"3.0.3.3\", \"keyPassword\": null, \"loginTimeout\": 60, \"status\": 0, \"inbound\": 104857600, \"threadNums\": 0, \"proxyHost\": \"\", \"host\": \"\", \"noTransferTimeout\": 600, \"device\": \"00:50:56:c0:00:08\", \"downloadSpeed\": 100000, \"certificateFile\": null, \"proxyPort\": 32001, \"remark\": null, \"name\": \"RaySync Server\", \"license\": \"\", \"created\": 1543400608.0, \"loglevel\": 1, \"speedLimitType\": 0, \"privateKeyFile\": null, \"enableFTPS\": 0, \"portEnd\": 65535, \"ipBind\": \"*\", \"directory\": \"G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user\", \"maxUserCount\": 0, \"os\": \"Windows-7-6.1.7601-SP1-AMD64\"}"}
+2018-11-29 10:08:26,760 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543457306.731082'}
+2018-11-29 10:08:26,776 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:27,065 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-11-29 10:08:27,090 - INFO - 关闭传输服务器
+2018-11-29 10:08:27,090 - INFO - {"action": "shutdown", "id": "1543457306.7740846", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:27,090 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1543457306.7740846'}
+2018-11-29 10:08:27,106 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:28,716 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 151
+2018-11-29 10:08:28,753 - INFO - 启动传输服务器
+2018-11-29 10:08:28,753 - INFO - {"action": "start", "id": "1543457307.1051033", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:28,753 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1543457307.1051033'}
+2018-11-29 10:08:28,770 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:08:33,659 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 153
+2018-11-29 10:08:33,701 - INFO - 重启传输服务器
+2018-11-29 10:08:33,701 - INFO - {"action": "restart", "id": "1543457308.7691987", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:08:33,701 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1543457308.7691987'}
+2018-11-29 10:09:11,736 - INFO - 更新服务器信息
+2018-11-29 10:09:11,736 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457351.7326562', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:11:02,842 - INFO - 更新服务器信息
+2018-11-29 10:11:02,842 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457462.8380108', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:11:22,817 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:22,835 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 362
+2018-11-29 10:11:22,857 - INFO - 获取服务器实时监控信息
+2018-11-29 10:11:22,857 - INFO - {"action": "performance", "id": "1543457482.8141534", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:22,857 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130631393280, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 82, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 0, 'upSpeed': 1216}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1543457482.8141534'}
+2018-11-29 10:11:22,873 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:22,879 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-11-29 10:11:22,902 - INFO - 获取服务器license激活信息
+2018-11-29 10:11:22,902 - INFO - {"action": "license", "id": "1543457482.8721566", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:22,902 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1543457482.8721566'}
+2018-11-29 10:11:22,919 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:22,922 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1083
+2018-11-29 10:11:22,959 - INFO - 获取服务器信息
+2018-11-29 10:11:22,959 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543457482.9181592", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:22,959 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543457482.9181592'}
+2018-11-29 10:11:22,975 - INFO - 更新服务器信息
+2018-11-29 10:11:22,975 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457482.9701622', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:11:22,991 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:23,088 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-11-29 10:11:23,109 - INFO - 关闭传输服务器
+2018-11-29 10:11:23,109 - INFO - {"action": "shutdown", "id": "1543457482.9901636", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:23,109 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1543457482.9901636'}
+2018-11-29 10:11:23,125 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:24,739 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 150
+2018-11-29 10:11:24,778 - INFO - 启动传输服务器
+2018-11-29 10:11:24,779 - INFO - {"action": "start", "id": "1543457483.124171", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:24,779 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1543457483.124171'}
+2018-11-29 10:11:24,798 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:11:29,702 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 153
+2018-11-29 10:11:29,740 - INFO - 重启传输服务器
+2018-11-29 10:11:29,740 - INFO - {"action": "restart", "id": "1543457484.7972667", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:11:29,741 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1543457484.7972667'}
+2018-11-29 10:11:39,040 - INFO - 更新服务器信息
+2018-11-29 10:11:39,040 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543457499.036081', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': '{"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 0, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\\\\u956d\\u901f\\u5b89\\u88c5\\u5305\\u6574\\u7406\\\\11.283.0.3.3\\\\RaySync_3.0.3.3\\\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}'}
+2018-11-29 10:21:09,732 - INFO - 更新服务器信息
+2018-11-29 10:21:09,732 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543458069.728723', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 1, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}}
+2018-11-29 10:22:41,179 - INFO - 更新服务器信息
+2018-11-29 10:22:41,179 - INFO - {'action': 'UPDATE_SERVER', 'id': '1543458161.1759534', 'device': '', 'module': 'WEBADMIN', 'token': 'ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti', 'version': '3.0.3.2', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '57d7ccc66356e', 'created': 1543400608.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 1, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}}
+2018-11-29 10:24:13,442 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:24:13,535 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:24:13,557 - INFO - 更新服务器信息
+2018-11-29 10:24:13,558 - INFO - {"action": "UPDATE_SERVER", "id": "1543458253.4352305", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "57d7ccc66356e", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\11.283.0.3.3\\RaySync_3.0.3.3\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-11-29 10:24:13,558 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543458253.4352305'}
+2018-11-29 10:31:12,322 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,330 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 308
+2018-11-29 10:31:12,334 - INFO - 用户正确密码正确
+2018-11-29 10:31:12,334 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-11-29 10:31:12,334 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.3', 'id': 1543386059}
+2018-11-29 10:31:12,349 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,355 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-11-29 10:31:12,377 - INFO - 用户登录，密码错误
+2018-11-29 10:31:12,377 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1543458672.3481908", "module": "WEBADMIN", "token": "Ep39w5mnbdUkdgZQaINVDbRG2MNO4Xz8G6j4Y0oJ", "version": "3.0.3.2"}
+2018-11-29 10:31:12,377 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.3', 'id': '1543458672.3481908'}
+2018-11-29 10:31:12,393 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,397 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 186
+2018-11-29 10:31:12,401 - INFO - 获取当前管理员信息
+2018-11-29 10:31:12,401 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1543458672.3921933", "device": "", "module": "WEBADMIN", "token": "Ep39w5mnbdUkdgZQaINVDbRG2MNO4Xz8G6j4Y0oJ", "version": "3.0.3.2"}
+2018-11-29 10:31:12,401 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1543458672.3921933'}
+2018-11-29 10:31:12,415 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,419 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 186
+2018-11-29 10:31:12,423 - INFO - 更新当前管理员信息
+2018-11-29 10:31:12,424 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1543458672.4141946", "device": "", "module": "WEBADMIN", "token": "Ep39w5mnbdUkdgZQaINVDbRG2MNO4Xz8G6j4Y0oJ", "version": "3.0.3.2"}
+2018-11-29 10:31:12,424 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1543458672.4141946'}
+2018-11-29 10:31:12,437 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,534 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-11-29 10:31:12,556 - INFO - 重登管理员
+2018-11-29 10:31:12,556 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-11-29 10:31:12,556 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': '5RGA7erpKnI2bwPXMhA6M4mwlE9BWbnJismfQIXt', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1541558118, 'plat_version': 0}
+2018-11-29 10:31:12,572 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,660 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 172
+2018-11-29 10:31:12,669 - INFO - 获取用户列表
+2018-11-29 10:31:12,669 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1543458672.5712035", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,670 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SELECT_USERS_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.5712035'}
+2018-11-29 10:31:12,687 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,690 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 171
+2018-11-29 10:31:12,694 - INFO - 新建用户
+2018-11-29 10:31:12,694 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 0, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 0}, "id": "1543458672.6852102", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,694 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'CREATE_USER_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.6852102'}
+2018-11-29 10:31:12,710 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,720 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 174
+2018-11-29 10:31:12,724 - INFO - 更新用户密码
+2018-11-29 10:31:12,724 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1543458672.7092113", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,725 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'UPDATE_USERPWD_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.7092113'}
+2018-11-29 10:31:12,740 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,743 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 180
+2018-11-29 10:31:12,747 - INFO - 用户锁定
+2018-11-29 10:31:12,748 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1543458672.7392132", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,748 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.7392132'}
+2018-11-29 10:31:12,763 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,766 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 180
+2018-11-29 10:31:12,770 - INFO - 用户解锁
+2018-11-29 10:31:12,770 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1543458672.7622144", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,770 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.7622144'}
+2018-11-29 10:31:12,785 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,788 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 170
+2018-11-29 10:31:12,792 - INFO - 删除用户
+2018-11-29 10:31:12,792 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1001}, "id": "1543458672.784216", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,792 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'DELETE_USER_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.784216'}
+2018-11-29 10:31:12,813 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,815 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 171
+2018-11-29 10:31:12,819 - INFO - 获取服务器实时监控信息
+2018-11-29 10:31:12,819 - INFO - {"action": "performance", "id": "1543458672.8112173", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,819 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'PERFORMANCE_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.8112173'}
+2018-11-29 10:31:12,834 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,837 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 167
+2018-11-29 10:31:12,841 - INFO - 获取服务器license激活信息
+2018-11-29 10:31:12,841 - INFO - {"action": "license", "id": "1543458672.8332186", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,841 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'LICENSE_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.8332186'}
+2018-11-29 10:31:12,856 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,859 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 173
+2018-11-29 10:31:12,863 - INFO - 获取服务器信息
+2018-11-29 10:31:12,863 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543458672.8552196", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,863 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.8552196'}
+2018-11-29 10:31:12,878 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,881 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 173
+2018-11-29 10:31:12,886 - INFO - 更新服务器信息
+2018-11-29 10:31:12,886 - INFO - {"action": "UPDATE_SERVER", "id": "1543458672.8742208", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "57d7ccc66356e", "created": 1543400608.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\11.283.0.3.3\\RaySync_3.0.3.3\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-11-29 10:31:12,886 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.8742208'}
+2018-11-29 10:31:12,902 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,904 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 168
+2018-11-29 10:31:12,909 - INFO - 关闭传输服务器
+2018-11-29 10:31:12,910 - INFO - {"action": "shutdown", "id": "1543458672.9012225", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,910 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SHUTDOWN_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.9012225'}
+2018-11-29 10:31:12,925 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,928 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-11-29 10:31:12,932 - INFO - 启动传输服务器
+2018-11-29 10:31:12,932 - INFO - {"action": "start", "id": "1543458672.9242237", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,932 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'START_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.9242237'}
+2018-11-29 10:31:12,948 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,951 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-11-29 10:31:12,956 - INFO - 重启传输服务器
+2018-11-29 10:31:12,956 - INFO - {"action": "restart", "id": "1543458672.947225", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,956 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'RESTART_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.947225'}
+2018-11-29 10:31:12,972 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,975 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 176
+2018-11-29 10:31:12,979 - INFO - 获取邮箱信息
+2018-11-29 10:31:12,980 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1543458672.9712267", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:12,980 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'GET_SERVER_EMAIL_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.9712267'}
+2018-11-29 10:31:12,995 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:12,998 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 179
+2018-11-29 10:31:13,002 - INFO - 设置邮箱信息
+2018-11-29 10:31:13,002 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1543458672.9942276", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:13,002 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'UPDATE_SERVER_EMAIL_RESPONSE', 'message': 'Invalid token', 'id': '1543458672.9942276'}
+2018-11-29 10:31:13,018 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:13,020 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 181
+2018-11-29 10:31:13,024 - INFO - 设置高级配置
+2018-11-29 10:31:13,024 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1543458673.0162292", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:13,025 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SET_ADVANCED_SETTINGS_RESPONSE', 'message': 'Invalid token', 'id': '1543458673.0162292'}
+2018-11-29 10:31:13,039 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:13,042 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 181
+2018-11-29 10:31:13,046 - INFO - 获取高级配置
+2018-11-29 10:31:13,046 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1543458673.0382302", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:13,046 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'Invalid token', 'id': '1543458673.0382302'}
+2018-11-29 10:31:13,061 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:13,063 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 168
+2018-11-29 10:31:13,064 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:13,067 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 168
+2018-11-29 10:31:13,071 - INFO - 获取实时传输列表
+2018-11-29 10:31:13,072 - INFO - {"action": "sessions", "id": "1543458673.0602317", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:13,072 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'SESSIONS_RESPONSE', 'message': 'Invalid token', 'id': '1543458673.0602317'}
+2018-11-29 10:31:13,087 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:31:13,090 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-11-29 10:31:13,094 - INFO - 用户退出
+2018-11-29 10:31:13,094 - INFO - {"action": "logout", "id": "1543458673.0862331", "device": "", "module": "WEBADMIN", "token": "ymGbNMKO1XCWDnwMLUEjzY310o59RVv4G7PQD1Ti", "version": "3.0.3.2"}
+2018-11-29 10:31:13,094 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1009, 'action': 'LOGOUT_RESPONSE', 'message': 'Invalid token', 'id': '1543458673.0862331'}
+2018-11-29 10:34:01,572 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:01,682 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-11-29 10:34:01,726 - INFO - 用户正确密码正确
+2018-11-29 10:34:01,726 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-11-29 10:34:01,726 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'B7nWxA3NxatWV3kqZt5gmGOQ102YK9EjGunjgAaf', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1543386059, 'plat_version': 0}
+2018-11-29 10:34:01,741 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:01,747 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-11-29 10:34:01,768 - INFO - 用户登录，密码错误
+2018-11-29 10:34:01,768 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1543458841.7408795", "module": "WEBADMIN", "token": "B7nWxA3NxatWV3kqZt5gmGOQ102YK9EjGunjgAaf", "version": "3.0.3.2"}
+2018-11-29 10:34:01,769 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.3', 'id': '1543458841.7408795'}
+2018-11-29 10:34:01,784 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:01,788 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 340
+2018-11-29 10:34:01,809 - INFO - 获取当前管理员信息
+2018-11-29 10:34:01,809 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1543458841.783882", "device": "", "module": "WEBADMIN", "token": "B7nWxA3NxatWV3kqZt5gmGOQ102YK9EjGunjgAaf", "version": "3.0.3.2"}
+2018-11-29 10:34:01,809 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1543458841.783882'}
+2018-11-29 10:34:01,826 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,023 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-11-29 10:34:02,067 - INFO - 更新当前管理员信息
+2018-11-29 10:34:02,067 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1543458841.8258843", "device": "", "module": "WEBADMIN", "token": "B7nWxA3NxatWV3kqZt5gmGOQ102YK9EjGunjgAaf", "version": "3.0.3.2"}
+2018-11-29 10:34:02,067 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1543458841.8258843'}
+2018-11-29 10:34:02,085 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,237 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-11-29 10:34:02,300 - INFO - 重登管理员
+2018-11-29 10:34:02,300 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-11-29 10:34:02,300 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': '0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1541558118, 'plat_version': 0}
+2018-11-29 10:34:02,316 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,320 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-11-29 10:34:02,341 - INFO - 获取用户列表
+2018-11-29 10:34:02,341 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1543458842.3159125", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:02,341 - INFO - {'users': [{'status': 0, 'userLockedStartTime': 0, 'account': 'test', 'password': '3snH2mPaZmXkg0fFbcOfDyAH41VIhbRUbf77ab62e4d5f535ddcf39a81dfa954fb27d0b40b49436fcaee30222d50f4b53', 'downloadSpeed': 0, 'name': 'Experience Account', 'permission': 255, 'loginFailTimes': 0, 'company': None, 'created': 1543458731.0, 'remark': None, 'uploadSpeed': 0, 'phone': None, 'email': 'test@raysync.io', 'accountType': 2, 'address': None, 'id': 1000, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}], 'totalCount': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USERS_RESPONSE', 'message': 'OK', 'id': '1543458842.3159125'}
+2018-11-29 10:34:02,356 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,468 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-11-29 10:34:02,489 - INFO - 新建用户
+2018-11-29 10:34:02,489 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 0, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 0}, "id": "1543458842.3559148", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:02,489 - INFO - {'userId': 1001, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'CREATE_USER_RESPONSE', 'message': 'OK', 'id': '1543458842.3559148', 'user': {}}
+2018-11-29 10:34:02,506 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,604 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 160
+2018-11-29 10:34:02,651 - INFO - 更新用户密码
+2018-11-29 10:34:02,651 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1543458842.5049233", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:02,651 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_USERPWD_RESPONSE', 'message': 'OK', 'id': '1543458842.5049233'}
+2018-11-29 10:34:02,666 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,769 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-11-29 10:34:02,791 - INFO - 用户锁定
+2018-11-29 10:34:02,791 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1543458842.6659327", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:02,791 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1543458842.6659327'}
+2018-11-29 10:34:02,806 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:02,888 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-11-29 10:34:02,910 - INFO - 用户解锁
+2018-11-29 10:34:02,910 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1543458842.8059404", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:02,910 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1543458842.8059404'}
+2018-11-29 10:34:02,926 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,038 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 157
+2018-11-29 10:34:03,059 - INFO - 删除用户
+2018-11-29 10:34:03,060 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1001}, "id": "1543458842.9259474", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:03,060 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'DELETE_USER_RESPONSE', 'message': 'OK', 'id': '1543458842.9259474'}
+2018-11-29 10:34:03,075 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,096 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 303
+2018-11-29 10:34:03,100 - INFO - 获取服务器实时监控信息
+2018-11-29 10:34:03,100 - INFO - {"action": "performance", "id": "1543458843.0749557", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:03,100 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130658004992, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1543458843.0749557'}
+2018-11-29 10:34:03,116 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,119 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-11-29 10:34:03,140 - INFO - 获取服务器license激活信息
+2018-11-29 10:34:03,140 - INFO - {"action": "license", "id": "1543458843.1159582", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:03,140 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1543458843.1159582'}
+2018-11-29 10:34:03,155 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,158 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1074
+2018-11-29 10:34:03,196 - INFO - 获取服务器信息
+2018-11-29 10:34:03,196 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543458843.1539605", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:03,196 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 0, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 0, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543458731.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543458843.1539605'}
+2018-11-29 10:34:03,211 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,313 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:34:03,342 - INFO - 更新服务器信息
+2018-11-29 10:34:03,343 - INFO - {"action": "UPDATE_SERVER", "id": "1543458843.2079635", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "RaySync Server", "license": "57d7ccc66356e", "created": 1543458731.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\11.283.0.3.3\\RaySync_3.0.3.3\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-11-29 10:34:03,343 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543458843.2079635'}
+2018-11-29 10:34:03,358 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:03,586 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 153
+2018-11-29 10:34:03,607 - INFO - 关闭传输服务器
+2018-11-29 10:34:03,608 - INFO - {"action": "shutdown", "id": "1543458843.357972", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:03,608 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1543458843.357972'}
+2018-11-29 10:34:03,624 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:05,234 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 151
+2018-11-29 10:34:05,261 - INFO - 启动传输服务器
+2018-11-29 10:34:05,261 - INFO - {"action": "start", "id": "1543458843.6229873", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:05,261 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1543458843.6229873'}
+2018-11-29 10:34:05,277 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,142 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 152
+2018-11-29 10:34:10,181 - INFO - 重启传输服务器
+2018-11-29 10:34:10,181 - INFO - {"action": "restart", "id": "1543458845.276082", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,182 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1543458845.276082'}
+2018-11-29 10:34:10,205 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,209 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 327
+2018-11-29 10:34:10,231 - INFO - 获取邮箱信息
+2018-11-29 10:34:10,231 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1543458850.2043636", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,231 - INFO - {'emailSender': '', 'emailAccount': '', 'emailSmtpPort': 465, 'emailSmtpHost': 'smtp.exmail.qq.com', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'emailFromName': '', 'result': 0, 'emailPassword': '', 'emailEncryptType': 1, 'action': 'GET_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1543458850.2043636'}
+2018-11-29 10:34:10,249 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,265 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-11-29 10:34:10,285 - INFO - 设置邮箱信息
+2018-11-29 10:34:10,285 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1543458850.2473662", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,286 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1543458850.2473662'}
+2018-11-29 10:34:10,300 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,395 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 167
+2018-11-29 10:34:10,417 - INFO - 设置高级配置
+2018-11-29 10:34:10,417 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1543458850.2993693", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,417 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1543458850.2993693'}
+2018-11-29 10:34:10,433 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,438 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 224
+2018-11-29 10:34:10,459 - INFO - 获取高级配置
+2018-11-29 10:34:10,459 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1543458850.4323766", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,459 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1543458850.4323766'}
+2018-11-29 10:34:10,475 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,478 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 169
+2018-11-29 10:34:10,480 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,482 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 169
+2018-11-29 10:34:10,502 - INFO - 获取实时传输列表
+2018-11-29 10:34:10,502 - INFO - {"action": "sessions", "id": "1543458850.474379", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,503 - INFO - {'sessions': [], 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SESSIONS_RESPONSE', 'message': 'OK', 'id': '1543458850.474379'}
+2018-11-29 10:34:10,517 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:34:10,607 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 152
+2018-11-29 10:34:10,643 - INFO - 用户退出
+2018-11-29 10:34:10,643 - INFO - {"action": "logout", "id": "1543458850.5163815", "device": "", "module": "WEBADMIN", "token": "0EpN4D6gLLsOk2XV6f68G594gQ1nblaBa3D5ZYrE", "version": "3.0.3.2"}
+2018-11-29 10:34:10,643 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'LOGOUT_RESPONSE', 'message': 'OK', 'id': '1543458850.5163815'}
+2018-11-29 10:40:52,691 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:52,801 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-11-29 10:40:52,849 - INFO - 用户正确密码正确
+2018-11-29 10:40:52,850 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-11-29 10:40:52,850 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': '9dxlG1r7EYFRJvbJXTEK03JJ72Kqz3LAJTt2RDbO', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1543386059, 'plat_version': 0}
+2018-11-29 10:40:52,867 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:52,873 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-11-29 10:40:52,893 - INFO - 用户登录，密码错误
+2018-11-29 10:40:52,893 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1543459252.8653944", "module": "WEBADMIN", "token": "9dxlG1r7EYFRJvbJXTEK03JJ72Kqz3LAJTt2RDbO", "version": "3.0.3.2"}
+2018-11-29 10:40:52,894 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.3', 'id': '1543459252.8653944'}
+2018-11-29 10:40:52,908 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:52,912 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 341
+2018-11-29 10:40:52,933 - INFO - 获取当前管理员信息
+2018-11-29 10:40:52,933 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1543459252.9073968", "device": "", "module": "WEBADMIN", "token": "9dxlG1r7EYFRJvbJXTEK03JJ72Kqz3LAJTt2RDbO", "version": "3.0.3.2"}
+2018-11-29 10:40:52,933 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1543459252.9073968'}
+2018-11-29 10:40:52,949 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,165 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-11-29 10:40:53,199 - INFO - 更新当前管理员信息
+2018-11-29 10:40:53,199 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1543459252.9483993", "device": "", "module": "WEBADMIN", "token": "9dxlG1r7EYFRJvbJXTEK03JJ72Kqz3LAJTt2RDbO", "version": "3.0.3.2"}
+2018-11-29 10:40:53,199 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1543459252.9483993'}
+2018-11-29 10:40:53,211 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,301 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-11-29 10:40:53,366 - INFO - 重登管理员
+2018-11-29 10:40:53,366 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-11-29 10:40:53,366 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.3', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.3', 'id': 1541558118, 'plat_version': 0}
+2018-11-29 10:40:53,385 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,389 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-11-29 10:40:53,410 - INFO - 获取用户列表
+2018-11-29 10:40:53,410 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1543459253.3844242", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:53,410 - INFO - {'users': [{'status': 0, 'userLockedStartTime': 0, 'account': 'test', 'password': 'ynzn6bepYsHfkfBBafap9ovGy4JeDGjRb7265c25e0d462e416c6b8805d7750d47d828aed715940283d3a853ae3d893f9', 'downloadSpeed': 0, 'name': 'Experience Account', 'permission': 255, 'loginFailTimes': 0, 'company': None, 'created': 1543459243.0, 'remark': None, 'uploadSpeed': 0, 'phone': None, 'email': 'test@raysync.io', 'accountType': 2, 'address': None, 'id': 1000, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}], 'totalCount': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USERS_RESPONSE', 'message': 'OK', 'id': '1543459253.3844242'}
+2018-11-29 10:40:53,426 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,508 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-11-29 10:40:53,550 - INFO - 新建用户
+2018-11-29 10:40:53,550 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1543459253.4244266", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:53,550 - INFO - {'userId': 1001, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'CREATE_USER_RESPONSE', 'message': 'OK', 'id': '1543459253.4244266', 'user': {}}
+2018-11-29 10:40:53,567 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,672 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 160
+2018-11-29 10:40:53,693 - INFO - 更新用户密码
+2018-11-29 10:40:53,693 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1543459253.5664346", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:53,694 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_USERPWD_RESPONSE', 'message': 'OK', 'id': '1543459253.5664346'}
+2018-11-29 10:40:53,710 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,800 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-11-29 10:40:53,841 - INFO - 用户锁定
+2018-11-29 10:40:53,841 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1543459253.708443", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:53,841 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1543459253.708443'}
+2018-11-29 10:40:53,857 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:53,956 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-11-29 10:40:53,978 - INFO - 用户解锁
+2018-11-29 10:40:53,978 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1543459253.855451", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:53,978 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1543459253.855451'}
+2018-11-29 10:40:53,993 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,083 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 156
+2018-11-29 10:40:54,117 - INFO - 删除用户
+2018-11-29 10:40:54,118 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1001}, "id": "1543459253.992459", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:54,118 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'DELETE_USER_RESPONSE', 'message': 'OK', 'id': '1543459253.992459'}
+2018-11-29 10:40:54,141 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,163 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 303
+2018-11-29 10:40:54,168 - INFO - 获取服务器实时监控信息
+2018-11-29 10:40:54,168 - INFO - {"action": "performance", "id": "1543459254.1394675", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:54,169 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1130654257152, 'diskTotalSize': 1500309772288, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1543459254.1394675'}
+2018-11-29 10:40:54,187 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,190 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-11-29 10:40:54,210 - INFO - 获取服务器license激活信息
+2018-11-29 10:40:54,211 - INFO - {"action": "license", "id": "1543459254.1854699", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:54,211 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1543459254.1854699'}
+2018-11-29 10:40:54,227 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,230 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1074
+2018-11-29 10:40:54,267 - INFO - 获取服务器信息
+2018-11-29 10:40:54,267 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1543459254.2264724", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:54,267 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 0, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.3', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 0, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 0, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1543459243.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\11.283.0.3.3\\RaySync_3.0.3.3\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1543459254.2264724'}
+2018-11-29 10:40:54,284 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,372 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-11-29 10:40:54,401 - INFO - 更新服务器信息
+2018-11-29 10:40:54,401 - INFO - {"action": "UPDATE_SERVER", "id": "1543459254.2784755", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.3", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 0, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1543459243.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\11.283.0.3.3\\RaySync_3.0.3.3\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-11-29 10:40:54,401 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1543459254.2784755'}
+2018-11-29 10:40:54,416 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:54,645 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-11-29 10:40:54,668 - INFO - 关闭传输服务器
+2018-11-29 10:40:54,668 - INFO - {"action": "shutdown", "id": "1543459254.4154832", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:54,668 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1543459254.4154832'}
+2018-11-29 10:40:54,683 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:40:56,294 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 151
+2018-11-29 10:40:56,331 - INFO - 启动传输服务器
+2018-11-29 10:40:56,332 - INFO - {"action": "start", "id": "1543459254.6824985", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:40:56,332 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1543459254.6824985'}
+2018-11-29 10:40:56,352 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,194 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 153
+2018-11-29 10:41:01,219 - INFO - 重启传输服务器
+2018-11-29 10:41:01,219 - INFO - {"action": "restart", "id": "1543459256.3505938", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,219 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1543459256.3505938'}
+2018-11-29 10:41:01,234 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,238 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 327
+2018-11-29 10:41:01,259 - INFO - 获取邮箱信息
+2018-11-29 10:41:01,259 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1543459261.2338731", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,259 - INFO - {'emailSender': '', 'emailAccount': '', 'emailSmtpPort': 465, 'emailSmtpHost': 'smtp.exmail.qq.com', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'emailFromName': '', 'result': 0, 'emailPassword': '', 'emailEncryptType': 1, 'action': 'GET_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1543459261.2338731'}
+2018-11-29 10:41:01,275 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,291 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-11-29 10:41:01,313 - INFO - 设置邮箱信息
+2018-11-29 10:41:01,313 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1543459261.2738755", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,313 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1543459261.2738755'}
+2018-11-29 10:41:01,330 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,412 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 167
+2018-11-29 10:41:01,435 - INFO - 设置高级配置
+2018-11-29 10:41:01,435 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1543459261.3298788", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,435 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1543459261.3298788'}
+2018-11-29 10:41:01,450 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,455 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 224
+2018-11-29 10:41:01,477 - INFO - 获取高级配置
+2018-11-29 10:41:01,477 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1543459261.4498854", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,477 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1543459261.4498854'}
+2018-11-29 10:41:01,494 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,497 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 169
+2018-11-29 10:41:01,498 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,501 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 169
+2018-11-29 10:41:01,523 - INFO - 获取实时传输列表
+2018-11-29 10:41:01,523 - INFO - {"action": "sessions", "id": "1543459261.493888", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,523 - INFO - {'sessions': [], 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SESSIONS_RESPONSE', 'message': 'OK', 'id': '1543459261.493888'}
+2018-11-29 10:41:01,547 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-11-29 10:41:01,645 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 152
+2018-11-29 10:41:01,668 - INFO - 用户退出
+2018-11-29 10:41:01,668 - INFO - {"action": "logout", "id": "1543459261.5398908", "device": "", "module": "WEBADMIN", "token": "vpKGnm81kgtv8xQ8yTpY60a21B9DQXk5z2XqW1Ze", "version": "3.0.3.2"}
+2018-11-29 10:41:01,669 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'LOGOUT_RESPONSE', 'message': 'OK', 'id': '1543459261.5398908'}
