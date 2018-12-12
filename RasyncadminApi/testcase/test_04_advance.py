@@ -57,7 +57,16 @@ class UserInfo(TestCase):
         self.dd = json.loads(self.result.text)  # 将json格式转换为python字典格式方便取出键值
         self.requestHandler(reqdata=self.parameter, row=row)
 
-    def test_login6(self,row=3):
+    def test_advance6(self,row=6):
+        '''获取日志列表'''
+        self.apiname=read_excel(self.sheetNAME,row,2)
+        self.parameter=Headers(read_excel('publicData',4,1),read_excel('Advance',row,5))
+        self.result=requests.post(self.urlsite,data=self.parameter,verify=False)
+        self.dd=json.loads(self.result.text)
+        self.requestHandler(reqdata=self.parameter,row=row)
+        print(self.dd)
+
+    def test_login7(self,row=3):
         '''用户退出'''
         self.apiname=read_excel('Adminmanager',row,2)
         self.parameter=Headers(read_excel('publicData',4,1),read_excel('Adminmanager',row,5))
@@ -67,4 +76,5 @@ class UserInfo(TestCase):
         self.assertEqual(int(self.dd['result']), int(read_excel('Adminmanager', row, 6)))
         # # 写入result值，0为正常
         write_excel(1, row, 8, 'result:' + str(self.dd['result']))
+
 

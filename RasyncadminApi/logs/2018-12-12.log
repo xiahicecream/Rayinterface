@@ -1,0 +1,1342 @@
+2018-12-12 10:23:42,812 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 10:23:42,902 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:43,913 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 10:23:44,074 - INFO - 用户正确密码正确
+2018-12-12 10:23:44,074 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 10:23:44,075 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'deaMPnpXndTrZWeG1ho4Py75QgKvYO5bpqXs75QZ', 'version': 1, 'result': 0, 'protocol_version': '3.0.2.8', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.2.8', 'id': 1543386059, 'plat_version': 0}
+2018-12-12 10:23:44,148 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:44,550 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 10:23:44,600 - INFO - 用户登录，密码错误
+2018-12-12 10:23:44,600 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544581424.1431634", "module": "WEBADMIN", "token": "deaMPnpXndTrZWeG1ho4Py75QgKvYO5bpqXs75QZ", "version": "3.0.3.2"}
+2018-12-12 10:23:44,600 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.2.8', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.2.8', 'id': '1544581424.1431634'}
+2018-12-12 10:23:44,643 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:44,657 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 340
+2018-12-12 10:23:44,711 - INFO - 获取当前管理员信息
+2018-12-12 10:23:44,711 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544581424.640192", "device": "", "module": "WEBADMIN", "token": "deaMPnpXndTrZWeG1ho4Py75QgKvYO5bpqXs75QZ", "version": "3.0.3.2"}
+2018-12-12 10:23:44,711 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544581424.640192'}
+2018-12-12 10:23:44,760 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:44,949 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 10:23:44,996 - INFO - 更新当前管理员信息
+2018-12-12 10:23:44,997 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544581424.7571986", "device": "", "module": "WEBADMIN", "token": "deaMPnpXndTrZWeG1ho4Py75QgKvYO5bpqXs75QZ", "version": "3.0.3.2"}
+2018-12-12 10:23:44,997 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544581424.7571986'}
+2018-12-12 10:23:45,023 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:45,106 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 10:23:45,216 - INFO - 重登管理员
+2018-12-12 10:23:45,217 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 10:23:45,217 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'xy7Qge3G8DsO1vB5aTRdOY7RGA6NBPRM3OGaVv6p', 'version': 1, 'result': 0, 'protocol_version': '3.0.2.8', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.2.8', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 10:23:58,994 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:23:59,133 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:23:59,357 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 10:23:59,406 - INFO - 新建用户
+2018-12-12 10:23:59,406 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544581439.1230202", "device": "", "module": "WEBADMIN", "token": "xy7Qge3G8DsO1vB5aTRdOY7RGA6NBPRM3OGaVv6p", "version": "3.0.3.2"}
+2018-12-12 10:23:59,406 - INFO - {'userId': 1001, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'CREATE_USER_RESPONSE', 'message': 'OK', 'id': '1544581439.1230202', 'user': {}}
+2018-12-12 10:24:03,661 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:24:03,694 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:24:03,703 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 10:24:03,747 - INFO - 获取用户信息
+2018-12-12 10:24:03,748 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544581443.6902814", "device": "", "module": "WEBADMIN", "token": "xy7Qge3G8DsO1vB5aTRdOY7RGA6NBPRM3OGaVv6p", "version": "3.0.3.2"}
+2018-12-12 10:24:03,748 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USER_RESPONSE', 'message': 'OK', 'id': '1544581443.6902814', 'user': {'status': 0, 'userLockedStartTime': 0, 'account': 'test1', 'password': 'oWmYrs5sus65sT1ow7n1GTPDydZW4vC1da6c98d4fec428362d79adf939096883fc698768dd7c11b9efb6bdf144e137c1', 'downloadSpeed': 100, 'name': '测试账号', 'permission': 255, 'loginFailTimes': 0, 'company': '', 'created': 1544581439, 'remark': '', 'uploadSpeed': 100, 'phone': '', 'email': '', 'accountType': 2, 'address': '', 'id': 1001, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}}
+2018-12-12 10:43:17,744 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 10:43:17,762 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:17,873 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 10:43:17,921 - INFO - 用户正确密码正确
+2018-12-12 10:43:17,921 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 10:43:17,921 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': '3jMGaPrRO9sJ10gWDCOjM0vPB18xvnAkp82uJEJQ', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1543386059, 'plat_version': 0}
+2018-12-12 10:43:17,939 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:17,946 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 10:43:17,977 - INFO - 用户登录，密码错误
+2018-12-12 10:43:17,977 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544582597.9383008", "module": "WEBADMIN", "token": "3jMGaPrRO9sJ10gWDCOjM0vPB18xvnAkp82uJEJQ", "version": "3.0.3.2"}
+2018-12-12 10:43:17,977 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544582597.9383008'}
+2018-12-12 10:43:17,995 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:17,998 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 340
+2018-12-12 10:43:18,023 - INFO - 获取当前管理员信息
+2018-12-12 10:43:18,023 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544582597.994304", "device": "", "module": "WEBADMIN", "token": "3jMGaPrRO9sJ10gWDCOjM0vPB18xvnAkp82uJEJQ", "version": "3.0.3.2"}
+2018-12-12 10:43:18,023 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544582597.994304'}
+2018-12-12 10:43:18,041 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:18,223 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 10:43:18,260 - INFO - 更新当前管理员信息
+2018-12-12 10:43:18,260 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544582598.0403068", "device": "", "module": "WEBADMIN", "token": "3jMGaPrRO9sJ10gWDCOjM0vPB18xvnAkp82uJEJQ", "version": "3.0.3.2"}
+2018-12-12 10:43:18,260 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544582598.0403068'}
+2018-12-12 10:43:18,274 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:18,374 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 10:43:18,441 - INFO - 重登管理员
+2018-12-12 10:43:18,441 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 10:43:18,441 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 10:43:26,445 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:43:26,467 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:26,472 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-12-12 10:43:26,498 - INFO - 获取用户列表
+2018-12-12 10:43:26,498 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544582606.4647884", "device": "", "module": "WEBADMIN", "token": "POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9", "version": "3.0.3.2"}
+2018-12-12 10:43:26,498 - INFO - {'users': [{'status': 0, 'userLockedStartTime': 0, 'account': 'test', 'password': 'pZRcZbkZ8wS9PH4BohEiVzQ6YBHMLARhce7a59f3559f435baa6c4db219f7096c6514f620d9c34dfb7dbfcf0045b021fd', 'downloadSpeed': 0, 'name': 'Experience Account', 'permission': 255, 'loginFailTimes': 0, 'company': None, 'created': 1544582255.0, 'remark': None, 'uploadSpeed': 0, 'phone': None, 'email': 'test@raysync.io', 'accountType': 2, 'address': None, 'id': 1000, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}], 'totalCount': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USERS_RESPONSE', 'message': 'OK', 'id': '1544582606.4647884'}
+2018-12-12 10:43:29,738 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:43:29,763 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:29,858 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 10:43:29,882 - INFO - 新建用户
+2018-12-12 10:43:29,882 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544582609.7599769", "device": "", "module": "WEBADMIN", "token": "POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9", "version": "3.0.3.2"}
+2018-12-12 10:43:29,883 - INFO - {'userId': 1001, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'CREATE_USER_RESPONSE', 'message': 'OK', 'id': '1544582609.7599769', 'user': {}}
+2018-12-12 10:43:43,812 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:43:43,834 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:43:43,839 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 10:43:43,880 - INFO - 获取用户信息
+2018-12-12 10:43:43,880 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544582623.8317819", "device": "", "module": "WEBADMIN", "token": "POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9", "version": "3.0.3.2"}
+2018-12-12 10:43:43,880 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USER_RESPONSE', 'message': 'OK', 'id': '1544582623.8317819', 'user': {'status': 0, 'userLockedStartTime': 0, 'account': 'test1', 'password': 'hn5i56B6K2f1tk4ktNxTga7EoxWQDhc605ff1c4e7721d58f76b2cc60ef6b518f916aa2912b72d8f4ee781d80fbf00cc4', 'downloadSpeed': 100, 'name': '测试账号', 'permission': 255, 'loginFailTimes': 0, 'company': '', 'created': 1544582609, 'remark': '', 'uploadSpeed': 100, 'phone': '', 'email': '', 'accountType': 2, 'address': '', 'id': 1001, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}}
+2018-12-12 10:45:36,462 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:45:36,491 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:45:36,497 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 10:45:36,544 - INFO - 获取用户信息
+2018-12-12 10:45:36,544 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544582736.4882252", "device": "", "module": "WEBADMIN", "token": "POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9", "version": "3.0.3.2"}
+2018-12-12 10:45:36,544 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_USER_RESPONSE', 'message': 'OK', 'id': '1544582736.4882252', 'user': {'status': 0, 'userLockedStartTime': 0, 'account': 'test1', 'password': 'hn5i56B6K2f1tk4ktNxTga7EoxWQDhc605ff1c4e7721d58f76b2cc60ef6b518f916aa2912b72d8f4ee781d80fbf00cc4', 'downloadSpeed': 100, 'name': '测试账号', 'permission': 255, 'loginFailTimes': 0, 'company': '', 'created': 1544582609, 'remark': '', 'uploadSpeed': 100, 'phone': '', 'email': '', 'accountType': 2, 'address': '', 'id': 1001, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}}
+2018-12-12 10:46:19,807 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:46:19,825 - INFO - 更新用户
+2018-12-12 10:46:19,826 - INFO - {'action': 'UPDATE_USER', 'id': '1544582779.822704', 'device': '', 'module': 'WEBADMIN', 'token': 'POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9', 'version': '3.0.3.2'}
+2018-12-12 10:47:01,711 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:47:01,730 - INFO - 更新用户
+2018-12-12 10:47:01,730 - INFO - {'action': 'UPDATE_USER', 'id': '1544582821.7261007', 'device': '', 'module': 'WEBADMIN', 'token': 'POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9', 'version': '3.0.3.2'}
+2018-12-12 10:47:44,103 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:47:44,123 - INFO - 更新用户
+2018-12-12 10:47:44,123 - INFO - {"action": "UPDATE_USER", "id": "1544582864.1195254", "device": "", "module": "WEBADMIN", "token": "POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "hn5i56B6K2f1tk4ktNxTga7EoxWQDhc605ff1c4e7721d58f76b2cc60ef6b518f916aa2912b72d8f4ee781d80fbf00cc4", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544582609, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 10:49:19,686 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:49:19,706 - INFO - 更新用户
+2018-12-12 10:49:19,706 - INFO - {'action': 'UPDATE_USER', 'id': '1544582959.7019925', 'device': '', 'module': 'WEBADMIN', 'token': 'POMe02bVa0hbaWezwt63eYbZAJaz9gLKGXeYRQF9', 'version': '3.0.3.2', 'user': {'status': 0, 'userLockedStartTime': 0, 'account': 'test1', 'password': 'hn5i56B6K2f1tk4ktNxTga7EoxWQDhc605ff1c4e7721d58f76b2cc60ef6b518f916aa2912b72d8f4ee781d80fbf00cc4', 'downloadSpeed': 100, 'name': '测试账号', 'permission': 0, 'loginFailTimes': 0, 'company': '', 'created': 1544582609, 'remark': '', 'uploadSpeed': 1000, 'phone': '', 'email': '', 'accountType': 2, 'address': '', 'id': 1001, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}}
+2018-12-12 10:55:12,635 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 10:55:12,655 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:12,768 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 10:55:12,836 - INFO - 用户正确密码正确
+2018-12-12 10:55:12,836 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 10:55:12,836 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'OmM5Arvez5u4WlGRLUQMwl2wJGDRdaqVLy23tvqo', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1543386059, 'plat_version': 0}
+2018-12-12 10:55:12,854 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:12,861 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 10:55:12,885 - INFO - 用户登录，密码错误
+2018-12-12 10:55:12,885 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544583312.8531916", "module": "WEBADMIN", "token": "OmM5Arvez5u4WlGRLUQMwl2wJGDRdaqVLy23tvqo", "version": "3.0.3.2"}
+2018-12-12 10:55:12,885 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544583312.8531916'}
+2018-12-12 10:55:12,901 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:12,905 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 341
+2018-12-12 10:55:12,926 - INFO - 获取当前管理员信息
+2018-12-12 10:55:12,926 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544583312.9001944", "device": "", "module": "WEBADMIN", "token": "OmM5Arvez5u4WlGRLUQMwl2wJGDRdaqVLy23tvqo", "version": "3.0.3.2"}
+2018-12-12 10:55:12,927 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583312.9001944'}
+2018-12-12 10:55:12,944 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:13,151 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 10:55:13,188 - INFO - 更新当前管理员信息
+2018-12-12 10:55:13,189 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544583312.9431968", "device": "", "module": "WEBADMIN", "token": "OmM5Arvez5u4WlGRLUQMwl2wJGDRdaqVLy23tvqo", "version": "3.0.3.2"}
+2018-12-12 10:55:13,189 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583312.9431968'}
+2018-12-12 10:55:13,202 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:13,303 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 10:55:13,365 - INFO - 重登管理员
+2018-12-12 10:55:13,365 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 10:55:13,366 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 10:55:25,654 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:55:25,676 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:25,682 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-12-12 10:55:25,708 - INFO - 获取用户列表
+2018-12-12 10:55:25,708 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583325.6729248", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:55:28,687 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:55:28,711 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:28,823 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 10:55:28,865 - INFO - 新建用户
+2018-12-12 10:55:28,865 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544583328.7080984", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:55:31,946 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:55:31,967 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:31,972 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1156
+2018-12-12 10:55:31,996 - INFO - 获取用户列表
+2018-12-12 10:55:31,996 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583331.9642847", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:55:56,154 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:55:56,180 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:55:56,186 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1156
+2018-12-12 10:55:56,214 - INFO - 获取用户列表
+2018-12-12 10:55:56,214 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583356.1766694", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:56:35,779 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:56:35,803 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:56:35,808 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 192
+2018-12-12 10:56:35,813 - INFO - 新建用户
+2018-12-12 10:56:35,813 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544583395.800936", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:56:38,137 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:56:38,165 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:56:38,170 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1608
+2018-12-12 10:56:38,194 - INFO - 获取用户列表
+2018-12-12 10:56:38,194 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583398.1620708", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:57:22,354 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:57:22,376 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:57:22,381 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 10:57:22,423 - INFO - 获取用户信息
+2018-12-12 10:57:22,423 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544583442.3735998", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:57:29,310 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 10:57:29,333 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:57:29,434 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 157
+2018-12-12 10:57:29,473 - INFO - 更新用户
+2018-12-12 10:57:29,473 - INFO - {"action": "UPDATE_USER", "id": "1544583449.3259974", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "nL3l8yduInkN28NgEe0BjAtANSB6aQ7A10f0241a88e51bd1a0df81451f74e12d46f178960d8e92031032901cc35e76a1", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544583328, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 10:58:07,930 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 10:58:07,946 - INFO - 获取日志列表
+2018-12-12 10:58:39,659 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 10:58:39,675 - INFO - 获取日志列表
+2018-12-12 10:59:14,530 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 10:59:14,552 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:59:14,558 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 215
+2018-12-12 10:59:14,559 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 10:59:14,564 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 215
+2018-12-12 10:59:14,589 - INFO - 获取日志列表
+2018-12-12 10:59:14,589 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544583554.5490158", "device": "", "module": "WEBADMIN", "token": "ndMeBrDXpmt2m85E2cajvlorN9bWmPxVffiM6osl", "version": "3.0.3.2"}
+2018-12-12 10:59:14,589 - INFO - {'downloadSpeed': 0, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583554.5490158'}
+2018-12-12 11:03:26,981 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:03:26,984 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 11:03:26,988 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:03:26,990 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 11:03:27,010 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,083 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 11:03:27,129 - INFO - 用户正确密码正确
+2018-12-12 11:03:27,129 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:03:27,129 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': '0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1543386059, 'plat_version': 0}
+2018-12-12 11:03:27,146 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,152 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 11:03:27,174 - INFO - 用户登录，密码错误
+2018-12-12 11:03:27,174 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544583807.1444633", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:03:27,174 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544583807.1444633'}
+2018-12-12 11:03:27,193 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,196 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 340
+2018-12-12 11:03:27,218 - INFO - 获取当前管理员信息
+2018-12-12 11:03:27,218 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544583807.191466", "device": "", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:03:27,218 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583807.191466'}
+2018-12-12 11:03:27,234 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,398 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 11:03:27,422 - INFO - 更新当前管理员信息
+2018-12-12 11:03:27,423 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544583807.2334685", "device": "", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:03:27,423 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583807.2334685'}
+2018-12-12 11:03:27,436 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,525 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:03:27,566 - INFO - 重登管理员
+2018-12-12 11:03:27,566 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:03:27,566 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:03:27,584 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,588 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-12-12 11:03:27,611 - INFO - 获取用户列表
+2018-12-12 11:03:27,611 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583807.5824885", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:27,629 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,710 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 184
+2018-12-12 11:03:27,752 - INFO - 新建用户
+2018-12-12 11:03:27,752 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544583807.628491", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:27,769 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,773 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 11:03:27,813 - INFO - 获取用户信息
+2018-12-12 11:03:27,813 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544583807.7684991", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:27,830 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:27,892 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 157
+2018-12-12 11:03:27,916 - INFO - 更新用户
+2018-12-12 11:03:27,916 - INFO - {"action": "UPDATE_USER", "id": "1544583807.8255024", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "VwT4xuhHrU6ykoX1OmL9yi9KFbaMUJY1fd8e495744ef586ac9252b1015bc0d0e0010f5e0531ec8e38548d4639ec1f691", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544583807, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 11:03:27,932 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,000 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 160
+2018-12-12 11:03:28,039 - INFO - 更新用户密码
+2018-12-12 11:03:28,039 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1544583807.9315085", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,058 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,124 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:03:28,147 - INFO - 用户锁定
+2018-12-12 11:03:28,147 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1544583808.0575156", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,163 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,249 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:03:28,274 - INFO - 用户解锁
+2018-12-12 11:03:28,275 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1544583808.1625216", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,291 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,373 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 156
+2018-12-12 11:03:28,395 - INFO - 删除用户
+2018-12-12 11:03:28,395 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1000}, "id": "1544583808.290529", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,413 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,417 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 302
+2018-12-12 11:03:28,422 - INFO - 获取服务器实时监控信息
+2018-12-12 11:03:28,422 - INFO - {"action": "performance", "id": "1544583808.411536", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,422 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126456213504, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1544583808.411536'}
+2018-12-12 11:03:28,438 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,441 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-12-12 11:03:28,464 - INFO - 获取服务器license激活信息
+2018-12-12 11:03:28,465 - INFO - {"action": "license", "id": "1544583808.4375372", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,465 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1544583808.4375372'}
+2018-12-12 11:03:28,481 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,486 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1071
+2018-12-12 11:03:28,529 - INFO - 获取服务器信息
+2018-12-12 11:03:28,530 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544583808.4805398", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:28,530 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 0, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.6', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 100, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 0, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1544583785.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\3.0.3.6\\RaySync_3.0.3.6\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1544583808.4805398'}
+2018-12-12 11:03:28,547 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:28,657 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-12-12 11:03:28,696 - INFO - 更新服务器信息
+2018-12-12 11:03:28,696 - INFO - {"action": "UPDATE_SERVER", "id": "1544583808.5425434", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583785.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:03:28,696 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1544583808.5425434'}
+2018-12-12 11:03:28,716 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:29,388 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-12-12 11:03:29,412 - INFO - 关闭传输服务器
+2018-12-12 11:03:29,412 - INFO - {"action": "shutdown", "id": "1544583808.7155533", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:29,412 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1544583808.7155533'}
+2018-12-12 11:03:29,430 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:31,370 - INFO - 启动传输服务器
+2018-12-12 11:03:31,370 - INFO - {"action": "start", "id": "1544583809.4285939", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:31,492 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:32,492 - INFO - 重启传输服务器
+2018-12-12 11:03:32,492 - INFO - {"action": "restart", "id": "1544583811.4907122", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:32,518 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:33,510 - INFO - 获取邮箱信息
+2018-12-12 11:03:33,510 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1544583812.5177708", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:33,528 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:34,528 - INFO - 设置邮箱信息
+2018-12-12 11:03:34,528 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1544583813.5278285", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:34,547 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:35,548 - INFO - 设置高级配置
+2018-12-12 11:03:35,548 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1544583814.546887", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:35,566 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,075 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 214
+2018-12-12 11:03:36,111 - INFO - 获取高级配置
+2018-12-12 11:03:36,111 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544583815.564945", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:36,111 - INFO - {'downloadSpeed': 0, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583815.564945'}
+2018-12-12 11:03:36,135 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,138 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 170
+2018-12-12 11:03:36,140 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,142 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 170
+2018-12-12 11:03:36,164 - INFO - 获取实时传输列表
+2018-12-12 11:03:36,164 - INFO - {"action": "sessions", "id": "1544583816.1349776", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:36,164 - INFO - {'sessions': [], 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SESSIONS_RESPONSE', 'message': 'OK', 'id': '1544583816.1349776'}
+2018-12-12 11:03:36,181 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,185 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 215
+2018-12-12 11:03:36,186 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,190 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 215
+2018-12-12 11:03:36,211 - INFO - 获取日志列表
+2018-12-12 11:03:36,212 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544583816.1809802", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:36,212 - INFO - {'downloadSpeed': 0, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583816.1809802'}
+2018-12-12 11:03:36,227 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:03:36,312 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 152
+2018-12-12 11:03:36,341 - INFO - 用户退出
+2018-12-12 11:03:36,342 - INFO - {"action": "logout", "id": "1544583816.2269828", "device": "", "module": "WEBADMIN", "token": "k2JbV03zY2I9bxy9DsXq5dwdWKApB7qyxenlOxDe", "version": "3.0.3.2"}
+2018-12-12 11:03:36,342 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'LOGOUT_RESPONSE', 'message': 'OK', 'id': '1544583816.2269828'}
+2018-12-12 11:04:41,163 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:04:41,181 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:04:41,189 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 308
+2018-12-12 11:04:41,194 - INFO - 用户正确密码正确
+2018-12-12 11:04:41,194 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:04:41,194 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': 1543386059}
+2018-12-12 11:04:41,215 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:04:41,223 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 315
+2018-12-12 11:04:41,252 - INFO - 用户登录，密码错误
+2018-12-12 11:04:41,252 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544583881.2147", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:04:41,252 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544583881.2147'}
+2018-12-12 11:04:41,269 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:04:41,274 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 11:04:41,283 - INFO - 获取当前管理员信息
+2018-12-12 11:04:41,284 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544583881.268703", "device": "", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:04:41,284 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1544583881.268703'}
+2018-12-12 11:04:41,310 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:04:41,315 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 186
+2018-12-12 11:04:41,320 - INFO - 更新当前管理员信息
+2018-12-12 11:04:41,320 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544583881.3097055", "device": "", "module": "WEBADMIN", "token": "0Xz9LJeG6wt9JmY9AhQ7KRqRWqDx8b1o22aqzf4b", "version": "3.0.3.2"}
+2018-12-12 11:04:41,320 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1544583881.3097055'}
+2018-12-12 11:04:41,337 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:04:41,439 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:04:41,485 - INFO - 重登管理员
+2018-12-12 11:04:41,485 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:04:41,486 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'gVGz0QEXM2uZnGyzNH9MYJgZLZaPkBJwCpM401b3', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:05:49,099 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:05:49,117 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:49,209 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 11:05:49,254 - INFO - 用户正确密码正确
+2018-12-12 11:05:49,254 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:05:49,254 - INFO - {'account': 'admin', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1543386059, 'plat_version': 0}
+2018-12-12 11:05:49,271 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:49,278 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 11:05:49,303 - INFO - 用户登录，密码错误
+2018-12-12 11:05:49,303 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544583949.2705925", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:05:49,303 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544583949.2705925'}
+2018-12-12 11:05:49,325 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:49,329 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 341
+2018-12-12 11:05:49,353 - INFO - 获取当前管理员信息
+2018-12-12 11:05:49,353 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544583949.3245957", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:05:49,353 - INFO - {'admin': {'status': 0, 'account': 'admin', 'name': '', 'created': 0, 'company': '', 'permission': 0, 'remark': '', 'id': '', 'phone': '', 'address': '', 'password': '', 'email': ''}, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583949.3245957'}
+2018-12-12 11:05:49,371 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:49,512 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 11:05:49,549 - INFO - 更新当前管理员信息
+2018-12-12 11:05:49,549 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544583949.3705983", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:05:49,549 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'OK', 'id': '1544583949.3705983'}
+2018-12-12 11:05:49,562 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:49,637 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:05:49,689 - INFO - 重登管理员
+2018-12-12 11:05:49,689 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:05:49,689 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:05:55,408 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 11:05:55,429 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,434 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 678
+2018-12-12 11:05:55,457 - INFO - 获取用户列表
+2018-12-12 11:05:55,457 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544583955.4269447", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:55,474 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,552 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 11:05:55,586 - INFO - 新建用户
+2018-12-12 11:05:55,586 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544583955.4739473", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:55,608 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,612 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 642
+2018-12-12 11:05:55,654 - INFO - 获取用户信息
+2018-12-12 11:05:55,654 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544583955.606955", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:55,672 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,742 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 157
+2018-12-12 11:05:55,764 - INFO - 更新用户
+2018-12-12 11:05:55,765 - INFO - {"action": "UPDATE_USER", "id": "1544583955.6679585", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "ClPleUg3nbYwXwK2aQ8PWnpjS1fnBaPU0ad481a3c25036eb93bfffdfdb60db95b561934565925e43176aded9462c6fe5", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544583955, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 11:05:55,782 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,850 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 160
+2018-12-12 11:05:55,873 - INFO - 更新用户密码
+2018-12-12 11:05:55,873 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1544583955.7809649", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:55,891 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:55,958 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:05:55,982 - INFO - 用户锁定
+2018-12-12 11:05:55,982 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1544583955.8899713", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:56,000 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:56,067 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:05:56,110 - INFO - 用户解锁
+2018-12-12 11:05:56,110 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1544583955.9989772", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:05:56,129 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:05:56,198 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 157
+2018-12-12 11:05:56,240 - INFO - 删除用户
+2018-12-12 11:05:56,240 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1000}, "id": "1544583956.1269846", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:00,803 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:06:00,824 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:00,829 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 302
+2018-12-12 11:06:00,834 - INFO - 获取服务器实时监控信息
+2018-12-12 11:06:00,834 - INFO - {"action": "performance", "id": "1544583960.821253", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:00,834 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126454411264, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1544583960.821253'}
+2018-12-12 11:06:00,853 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:00,857 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 288
+2018-12-12 11:06:00,881 - INFO - 获取服务器license激活信息
+2018-12-12 11:06:00,882 - INFO - {"action": "license", "id": "1544583960.8522549", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:00,882 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1544583960.8522549'}
+2018-12-12 11:06:00,900 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:00,904 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1071
+2018-12-12 11:06:00,944 - INFO - 获取服务器信息
+2018-12-12 11:06:00,944 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544583960.8982577", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:00,944 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 0, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.6', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 100, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 0, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1544583944.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\3.0.3.6\\RaySync_3.0.3.6\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1544583960.8982577'}
+2018-12-12 11:06:00,962 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:01,040 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 11:06:01,065 - INFO - 更新服务器信息
+2018-12-12 11:06:01,065 - INFO - {"action": "UPDATE_SERVER", "id": "1544583960.957261", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583944.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:06:01,065 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1544583960.957261'}
+2018-12-12 11:06:01,086 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:01,643 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-12-12 11:06:01,669 - INFO - 关闭传输服务器
+2018-12-12 11:06:01,669 - INFO - {"action": "shutdown", "id": "1544583961.0852683", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:01,669 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1544583961.0852683'}
+2018-12-12 11:06:01,688 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:03,536 - INFO - 启动传输服务器
+2018-12-12 11:06:03,536 - INFO - {"action": "start", "id": "1544583961.6873026", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:03,563 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:04,571 - INFO - 重启传输服务器
+2018-12-12 11:06:04,571 - INFO - {"action": "restart", "id": "1544583963.5614097", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:25,851 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 11:06:25,872 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:25,877 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 327
+2018-12-12 11:06:25,900 - INFO - 获取邮箱信息
+2018-12-12 11:06:25,900 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1544583985.8696861", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:25,900 - INFO - {'emailSender': '', 'emailAccount': '', 'emailSmtpPort': 465, 'emailSmtpHost': 'smtp.exmail.qq.com', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'emailFromName': '', 'result': 0, 'emailPassword': '', 'emailEncryptType': 1, 'action': 'GET_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1544583985.8696861'}
+2018-12-12 11:06:25,919 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:25,937 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 165
+2018-12-12 11:06:25,960 - INFO - 设置邮箱信息
+2018-12-12 11:06:25,960 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1544583985.9186888", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:25,960 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1544583985.9186888'}
+2018-12-12 11:06:25,978 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,069 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 167
+2018-12-12 11:06:26,092 - INFO - 设置高级配置
+2018-12-12 11:06:26,092 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1544583985.9776921", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:26,092 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583985.9776921'}
+2018-12-12 11:06:26,110 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,114 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:06:26,139 - INFO - 获取高级配置
+2018-12-12 11:06:26,139 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544583986.1096995", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:26,139 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583986.1096995'}
+2018-12-12 11:06:26,158 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,161 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 170
+2018-12-12 11:06:26,163 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,166 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 170
+2018-12-12 11:06:26,190 - INFO - 获取实时传输列表
+2018-12-12 11:06:26,190 - INFO - {"action": "sessions", "id": "1544583986.1577024", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:26,190 - INFO - {'sessions': [], 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SESSIONS_RESPONSE', 'message': 'OK', 'id': '1544583986.1577024'}
+2018-12-12 11:06:26,207 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,210 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:06:26,212 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,215 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:06:26,238 - INFO - 获取日志列表
+2018-12-12 11:06:26,239 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544583986.2057052", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:26,239 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544583986.2057052'}
+2018-12-12 11:06:26,257 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:26,320 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 152
+2018-12-12 11:06:26,354 - INFO - 用户退出
+2018-12-12 11:06:26,354 - INFO - {"action": "logout", "id": "1544583986.2567081", "device": "", "module": "WEBADMIN", "token": "YkwNmjA8ANHA9e4vmUPRWOPg036VERO9I2zoaDtp", "version": "3.0.3.2"}
+2018-12-12 11:06:26,354 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'LOGOUT_RESPONSE', 'message': 'OK', 'id': '1544583986.2567081'}
+2018-12-12 11:06:35,459 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:06:35,476 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:35,484 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 308
+2018-12-12 11:06:35,488 - INFO - 用户正确密码正确
+2018-12-12 11:06:35,488 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:06:35,489 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': 1543386059}
+2018-12-12 11:06:35,507 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:35,515 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 11:06:35,540 - INFO - 用户登录，密码错误
+2018-12-12 11:06:35,541 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544583995.5062373", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:06:35,541 - INFO - {'account': '', 'reconnectcnt': 0, 'softVersion': 0, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'Account or password invalid', 'client_version': '3.0.3.6', 'id': '1544583995.5062373'}
+2018-12-12 11:06:35,559 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:35,563 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 184
+2018-12-12 11:06:35,569 - INFO - 获取当前管理员信息
+2018-12-12 11:06:35,569 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544583995.55724", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:06:35,569 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'SELECT_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1544583995.55724'}
+2018-12-12 11:06:35,588 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:35,593 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 186
+2018-12-12 11:06:35,598 - INFO - 更新当前管理员信息
+2018-12-12 11:06:35,598 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544583995.5872416", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:06:35,598 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1002, 'action': 'UPDATE_ADMIN_RESPONSE', 'message': 'Account or password invalid', 'id': '1544583995.5872416'}
+2018-12-12 11:06:35,613 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:35,708 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:06:35,755 - INFO - 重登管理员
+2018-12-12 11:06:35,755 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:06:35,755 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'RPYNBlEVJEiBOoP6ztd80aZWezLAdmkxUbBqvz7i', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:06:46,446 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:06:46,464 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:46,561 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:06:46,632 - INFO - 重登管理员
+2018-12-12 11:06:46,633 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:06:46,633 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'token': 'maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:06:54,567 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:06:54,588 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:06:54,594 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 303
+2018-12-12 11:06:54,599 - INFO - 获取服务器实时监控信息
+2018-12-12 11:06:54,599 - INFO - {"action": "performance", "id": "1544584014.5863283", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:06:54,599 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126422618112, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1544584014.5863283'}
+2018-12-12 11:07:28,234 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:07:28,256 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:28,260 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 365
+2018-12-12 11:07:28,284 - INFO - 获取服务器实时监控信息
+2018-12-12 11:07:28,284 - INFO - {"action": "performance", "id": "1544584048.253254", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:28,284 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126421434368, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 89, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 1736, 'upSpeed': 19400}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1544584048.253254'}
+2018-12-12 11:07:32,566 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:07:32,591 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:32,596 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 326
+2018-12-12 11:07:32,624 - INFO - 获取服务器license激活信息
+2018-12-12 11:07:32,624 - INFO - {"action": "license", "id": "1544584052.588502", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:32,624 - INFO - {'product_id': 128, 'low_bound_bandwidth': '512', 'activate_date': '2016-09-13', 'duration': '24 Months', 'max_bandwidth': '1000M', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '2020-09-13', 'action': 'LICENSE_RESPONSE', 'actived': 1, 'message': 'OK', 'id': '1544584052.588502'}
+2018-12-12 11:07:37,164 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:07:37,186 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:37,193 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 366
+2018-12-12 11:07:37,225 - INFO - 获取服务器实时监控信息
+2018-12-12 11:07:37,225 - INFO - {"action": "performance", "id": "1544584057.1837647", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:37,225 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126421401600, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 77, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 8576, 'upSpeed': 15472}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1544584057.1837647'}
+2018-12-12 11:07:37,246 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:37,250 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 327
+2018-12-12 11:07:37,275 - INFO - 获取服务器license激活信息
+2018-12-12 11:07:37,275 - INFO - {"action": "license", "id": "1544584057.2447681", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:37,275 - INFO - {'product_id': 128, 'low_bound_bandwidth': '512', 'activate_date': '2016-09-13', 'duration': '24 Months', 'max_bandwidth': '1000M', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '2020-09-13', 'action': 'LICENSE_RESPONSE', 'actived': 1, 'message': 'OK', 'id': '1544584057.2447681'}
+2018-12-12 11:07:37,296 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:37,301 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1090
+2018-12-12 11:07:37,342 - INFO - 获取服务器信息
+2018-12-12 11:07:37,342 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544584057.2957711", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:37,342 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.6', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 100, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'xuegao server', 'license': '57d7ccc66356e', 'created': 1544583944, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 1, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\3.0.3.6\\RaySync_3.0.3.6\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1544584057.2957711'}
+2018-12-12 11:07:37,359 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:37,444 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-12-12 11:07:37,485 - INFO - 更新服务器信息
+2018-12-12 11:07:37,485 - INFO - {"action": "UPDATE_SERVER", "id": "1544584057.3547745", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583944, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:07:37,485 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1544584057.3547745'}
+2018-12-12 11:07:37,504 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:38,035 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-12-12 11:07:38,062 - INFO - 关闭传输服务器
+2018-12-12 11:07:38,062 - INFO - {"action": "shutdown", "id": "1544584057.5037832", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:38,062 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1544584057.5037832'}
+2018-12-12 11:07:38,081 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:40,016 - INFO - 启动传输服务器
+2018-12-12 11:07:40,016 - INFO - {"action": "start", "id": "1544584058.080816", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:07:40,045 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:07:41,052 - INFO - 重启传输服务器
+2018-12-12 11:07:41,052 - INFO - {"action": "restart", "id": "1544584060.0439284", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:21,769 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:21,792 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:21,800 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 303
+2018-12-12 11:08:21,805 - INFO - 获取服务器实时监控信息
+2018-12-12 11:08:21,805 - INFO - {"action": "performance", "id": "1544584101.7893162", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:21,805 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126389497856, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1544584101.7893162'}
+2018-12-12 11:08:26,510 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:26,532 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:26,539 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 366
+2018-12-12 11:08:26,566 - INFO - 获取服务器实时监控信息
+2018-12-12 11:08:26,566 - INFO - {"action": "performance", "id": "1544584106.5295873", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:26,566 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 1126389555200, 'diskTotalSize': 1500303769600, 'module': 'WEBSRV', 'cpuUsage': 110, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'netcards': [{'netcardName': '本地连接', 'downSpeed': 2192, 'upSpeed': 3608}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1544584106.5295873'}
+2018-12-12 11:08:31,459 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:31,480 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:31,486 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 327
+2018-12-12 11:08:31,509 - INFO - 获取服务器license激活信息
+2018-12-12 11:08:31,509 - INFO - {"action": "license", "id": "1544584111.4778702", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:31,509 - INFO - {'product_id': 128, 'low_bound_bandwidth': '512', 'activate_date': '2016-09-13', 'duration': '24 Months', 'max_bandwidth': '1000M', 'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'expire_date': '2020-09-13', 'action': 'LICENSE_RESPONSE', 'actived': 1, 'message': 'OK', 'id': '1544584111.4778702'}
+2018-12-12 11:08:36,317 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:36,338 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:36,343 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 1089
+2018-12-12 11:08:36,389 - INFO - 获取服务器信息
+2018-12-12 11:08:36,389 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544584116.335148", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:36,389 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 10000, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.6', 'keyPassword': None, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'threadNums': 100, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:50:56:c0:00:08', 'downloadSpeed': 100000, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'xuegao server', 'license': '57d7ccc66356e', 'created': 1544583944, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 1, 'portEnd': 65535, 'ipBind': '*', 'directory': 'G:\\镭速安装包整理\\3.0.3.6\\RaySync_3.0.3.6\\user', 'maxUserCount': 0, 'os': 'Windows-7-6.1.7601-SP1-AMD64'}, 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1544584116.335148'}
+2018-12-12 11:08:40,399 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:40,421 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:40,516 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 159
+2018-12-12 11:08:40,551 - INFO - 更新服务器信息
+2018-12-12 11:08:40,551 - INFO - {"action": "UPDATE_SERVER", "id": "1544584120.4153814", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583944, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:08:40,552 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1544584120.4153814'}
+2018-12-12 11:08:44,428 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:44,451 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:45,024 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 154
+2018-12-12 11:08:45,051 - INFO - 关闭传输服务器
+2018-12-12 11:08:45,051 - INFO - {"action": "shutdown", "id": "1544584124.4486122", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:08:45,051 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1544584124.4486122'}
+2018-12-12 11:08:51,696 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:08:51,717 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:08:53,520 - INFO - 启动传输服务器
+2018-12-12 11:08:53,520 - INFO - {"action": "start", "id": "1544584131.714028", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:09:01,572 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:09:01,594 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:09:02,002 - DEBUG - http://127.0.0.1:8090 "POST /api HTTP/1.1" 200 151
+2018-12-12 11:09:02,028 - INFO - 启动传输服务器
+2018-12-12 11:09:02,028 - INFO - {"action": "start", "id": "1544584141.5915928", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:09:02,028 - INFO - {'module': 'WEBSRV', 'device': '00:50:56:c0:00:08', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1544584141.5915928'}
+2018-12-12 11:09:05,166 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:09:05,187 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:09:10,601 - INFO - 重启传输服务器
+2018-12-12 11:09:10,601 - INFO - {"action": "restart", "id": "1544584145.1847982", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:09:13,865 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:09:13,896 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:09:14,896 - INFO - 重启传输服务器
+2018-12-12 11:09:14,897 - INFO - {"action": "restart", "id": "1544584153.892296", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:09:18,329 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:09:18,353 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:09:23,739 - INFO - 重启传输服务器
+2018-12-12 11:09:23,739 - INFO - {"action": "restart", "id": "1544584158.3505514", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:22,281 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:18:22,286 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 11:18:22,287 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:18:22,287 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 11:18:22,307 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,390 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,391 - INFO - 用户正确密码正确
+2018-12-12 11:18:22,391 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:18:22,441 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,472 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,474 - INFO - 用户登录，密码错误
+2018-12-12 11:18:22,474 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584702.4396713", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:18:22,513 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,545 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,546 - INFO - 获取当前管理员信息
+2018-12-12 11:18:22,546 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584702.5116754", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:18:22,577 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,609 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,610 - INFO - 更新当前管理员信息
+2018-12-12 11:18:22,610 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584702.5766792", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:18:22,627 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,661 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,662 - INFO - 重登管理员
+2018-12-12 11:18:22,662 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:18:22,686 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,721 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,722 - INFO - 获取用户列表
+2018-12-12 11:18:22,722 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544584702.6846852", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:22,747 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,778 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,778 - INFO - 新建用户
+2018-12-12 11:18:22,778 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544584702.745689", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:22,819 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,853 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,854 - INFO - 获取用户信息
+2018-12-12 11:18:22,854 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544584702.8186932", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:22,878 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,911 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,912 - INFO - 更新用户
+2018-12-12 11:18:22,912 - INFO - {"action": "UPDATE_USER", "id": "1544584702.8716962", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "ClPleUg3nbYwXwK2aQ8PWnpjS1fnBaPU0ad481a3c25036eb93bfffdfdb60db95b561934565925e43176aded9462c6fe5", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544583955, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 11:18:22,944 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:22,983 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:22,984 - INFO - 更新用户密码
+2018-12-12 11:18:22,984 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1544584702.9427001", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,006 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,040 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,040 - INFO - 用户锁定
+2018-12-12 11:18:23,041 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1544584703.0057037", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,063 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,097 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,098 - INFO - 用户解锁
+2018-12-12 11:18:23,098 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1544584703.062707", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,122 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,157 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,158 - INFO - 删除用户
+2018-12-12 11:18:23,158 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1000}, "id": "1544584703.1217103", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,182 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,211 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,212 - INFO - 获取服务器实时监控信息
+2018-12-12 11:18:23,212 - INFO - {"action": "performance", "id": "1544584703.1807137", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,234 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,269 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,270 - INFO - 获取服务器license激活信息
+2018-12-12 11:18:23,270 - INFO - {"action": "license", "id": "1544584703.2337167", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,310 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,346 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,348 - INFO - 获取服务器信息
+2018-12-12 11:18:23,348 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544584703.308721", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,374 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,406 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,407 - INFO - 更新服务器信息
+2018-12-12 11:18:23,407 - INFO - {"action": "UPDATE_SERVER", "id": "1544584703.3667243", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583944, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:18:23,447 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,480 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,481 - INFO - 关闭传输服务器
+2018-12-12 11:18:23,481 - INFO - {"action": "shutdown", "id": "1544584703.446729", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,505 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,537 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,538 - INFO - 启动传输服务器
+2018-12-12 11:18:23,538 - INFO - {"action": "start", "id": "1544584703.5047324", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,562 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,594 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,595 - INFO - 重启传输服务器
+2018-12-12 11:18:23,595 - INFO - {"action": "restart", "id": "1544584703.5617354", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,619 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,654 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,655 - INFO - 获取邮箱信息
+2018-12-12 11:18:23,656 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1544584703.6187387", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,691 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,724 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,725 - INFO - 设置邮箱信息
+2018-12-12 11:18:23,725 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1544584703.6907427", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,748 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,779 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,780 - INFO - 设置高级配置
+2018-12-12 11:18:23,780 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1544584703.7477462", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,804 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,835 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,836 - INFO - 获取高级配置
+2018-12-12 11:18:23,836 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544584703.8037493", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,859 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,893 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,894 - INFO - 获取实时传输列表
+2018-12-12 11:18:23,894 - INFO - {"action": "sessions", "id": "1544584703.8587525", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,918 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:23,954 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:23,955 - INFO - 获取日志列表
+2018-12-12 11:18:23,955 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544584703.9167557", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:18:23,977 - DEBUG - Starting new HTTP connection (1): www.icebong.top:8090
+2018-12-12 11:18:24,012 - DEBUG - http://www.icebong.top:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:18:24,013 - INFO - 用户退出
+2018-12-12 11:18:24,013 - INFO - {"action": "logout", "id": "1544584703.9767592", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:03,924 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:20:03,925 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 11:20:03,926 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:20:03,927 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 11:20:03,949 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:03,981 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:03,981 - INFO - 用户正确密码正确
+2018-12-12 11:20:03,981 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:20:04,006 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,042 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,043 - INFO - 用户登录，密码错误
+2018-12-12 11:20:04,043 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584804.0044806", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:04,070 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,100 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,101 - INFO - 获取当前管理员信息
+2018-12-12 11:20:04,101 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584804.068484", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:04,123 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,155 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,156 - INFO - 更新当前管理员信息
+2018-12-12 11:20:04,156 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584804.1224873", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:04,175 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,204 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,204 - INFO - 重登管理员
+2018-12-12 11:20:04,204 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:20:04,227 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,259 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,260 - INFO - 获取用户列表
+2018-12-12 11:20:04,260 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544584804.2264931", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,286 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,321 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,321 - INFO - 新建用户
+2018-12-12 11:20:04,321 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544584804.2854965", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,344 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,379 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,380 - INFO - 获取用户信息
+2018-12-12 11:20:04,380 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544584804.3434997", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,403 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,438 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,439 - INFO - 更新用户
+2018-12-12 11:20:04,439 - INFO - {"action": "UPDATE_USER", "id": "1544584804.397503", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "ClPleUg3nbYwXwK2aQ8PWnpjS1fnBaPU0ad481a3c25036eb93bfffdfdb60db95b561934565925e43176aded9462c6fe5", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544583955, "remark": "", "uploadSpeed": 1000, "phone": "", "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 11:20:04,461 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,497 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,498 - INFO - 更新用户密码
+2018-12-12 11:20:04,498 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1544584804.4605067", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,528 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,557 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,558 - INFO - 用户锁定
+2018-12-12 11:20:04,558 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1544584804.5275106", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,582 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,620 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,620 - INFO - 用户解锁
+2018-12-12 11:20:04,620 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1544584804.5815134", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,642 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,676 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,677 - INFO - 删除用户
+2018-12-12 11:20:04,677 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1000}, "id": "1544584804.6415172", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,701 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,734 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,735 - INFO - 获取服务器实时监控信息
+2018-12-12 11:20:04,735 - INFO - {"action": "performance", "id": "1544584804.7005203", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,758 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,791 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,792 - INFO - 获取服务器license激活信息
+2018-12-12 11:20:04,792 - INFO - {"action": "license", "id": "1544584804.7575238", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,815 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,851 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,852 - INFO - 获取服务器信息
+2018-12-12 11:20:04,853 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544584804.8135269", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:04,893 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,926 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,927 - INFO - 更新服务器信息
+2018-12-12 11:20:04,927 - INFO - {"action": "UPDATE_SERVER", "id": "1544584804.8835309", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 10000, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "keyPassword": null, "loginTimeout": 60, "status": 0, "inbound": 104857600, "threadNums": 100, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:50:56:c0:00:08", "downloadSpeed": 100000, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544583944, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "G:\\\u956d\u901f\u5b89\u88c5\u5305\u6574\u7406\\3.0.3.6\\RaySync_3.0.3.6\\user", "maxUserCount": 0, "os": "Windows-7-6.1.7601-SP1-AMD64"}}
+2018-12-12 11:20:04,951 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:04,982 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:04,984 - INFO - 关闭传输服务器
+2018-12-12 11:20:04,984 - INFO - {"action": "shutdown", "id": "1544584804.9505346", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,008 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,038 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,039 - INFO - 启动传输服务器
+2018-12-12 11:20:05,039 - INFO - {"action": "start", "id": "1544584805.0065377", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,060 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,095 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,096 - INFO - 重启传输服务器
+2018-12-12 11:20:05,096 - INFO - {"action": "restart", "id": "1544584805.059541", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,120 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,153 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,154 - INFO - 获取邮箱信息
+2018-12-12 11:20:05,154 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1544584805.1195443", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,177 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,214 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,215 - INFO - 设置邮箱信息
+2018-12-12 11:20:05,215 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1544584805.1765475", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,239 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,273 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,274 - INFO - 设置高级配置
+2018-12-12 11:20:05,274 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1544584805.2385511", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,297 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,332 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,333 - INFO - 获取高级配置
+2018-12-12 11:20:05,333 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544584805.2955544", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,358 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,400 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,401 - INFO - 获取实时传输列表
+2018-12-12 11:20:05,401 - INFO - {"action": "sessions", "id": "1544584805.357558", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,475 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,525 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,526 - INFO - 获取日志列表
+2018-12-12 11:20:05,526 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544584805.4745646", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:05,549 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:05,585 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:05,585 - INFO - 用户退出
+2018-12-12 11:20:05,585 - INFO - {"action": "logout", "id": "1544584805.5475688", "device": "", "module": "WEBADMIN", "token": "maBb5KJVnLuzNvkBetln9RvB7vA3QqzkorWjxTxT", "version": "3.0.3.2"}
+2018-12-12 11:20:16,149 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:20:16,171 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:16,212 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:16,213 - INFO - 用户正确密码正确
+2018-12-12 11:20:16,214 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:20:16,240 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:16,274 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:16,275 - INFO - 用户登录，密码错误
+2018-12-12 11:20:16,276 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584816.2391803", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:16,318 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:16,351 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:16,352 - INFO - 获取当前管理员信息
+2018-12-12 11:20:16,352 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584816.3151846", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:16,379 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:16,412 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:16,412 - INFO - 更新当前管理员信息
+2018-12-12 11:20:16,412 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584816.3771882", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:20:16,431 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:20:16,464 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:20:16,464 - INFO - 重登管理员
+2018-12-12 11:20:16,465 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:22:02,429 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:22:02,452 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:02,491 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:02,492 - INFO - 用户正确密码正确
+2018-12-12 11:22:02,492 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:22:02,518 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:02,551 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:02,552 - INFO - 用户登录，密码错误
+2018-12-12 11:22:02,552 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584922.516259", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:02,577 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:02,613 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:02,613 - INFO - 获取当前管理员信息
+2018-12-12 11:22:02,614 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584922.5752625", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:02,637 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:02,670 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:02,670 - INFO - 更新当前管理员信息
+2018-12-12 11:22:02,671 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584922.636266", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:02,690 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:02,723 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:02,723 - INFO - 重登管理员
+2018-12-12 11:22:02,723 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:22:28,435 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:22:28,457 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:28,496 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:28,496 - INFO - 用户正确密码正确
+2018-12-12 11:22:28,497 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:22:28,523 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:28,560 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:28,560 - INFO - 用户登录，密码错误
+2018-12-12 11:22:28,560 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584948.5217464", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:28,586 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:28,617 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:28,618 - INFO - 获取当前管理员信息
+2018-12-12 11:22:28,618 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584948.5847502", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:28,642 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:28,677 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:28,678 - INFO - 更新当前管理员信息
+2018-12-12 11:22:28,678 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584948.6407535", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:22:28,696 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:22:28,737 - DEBUG - http://119.23.175.202:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:22:28,737 - INFO - 重登管理员
+2018-12-12 11:22:28,737 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:23:14,212 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:23:14,233 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:14,236 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:14,237 - INFO - 用户正确密码正确
+2018-12-12 11:23:14,237 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:23:14,264 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:14,266 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:14,267 - INFO - 用户登录，密码错误
+2018-12-12 11:23:14,267 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544584994.263363", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:23:14,294 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:14,295 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:14,296 - INFO - 获取当前管理员信息
+2018-12-12 11:23:14,296 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544584994.2923644", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:23:14,320 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:14,321 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:14,322 - INFO - 更新当前管理员信息
+2018-12-12 11:23:14,322 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544584994.318366", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:23:14,340 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:14,343 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:14,343 - INFO - 重登管理员
+2018-12-12 11:23:14,343 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:23:31,157 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:23:31,184 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:31,187 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:31,188 - INFO - 重登管理员
+2018-12-12 11:23:31,188 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:23:45,366 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:23:45,390 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:23:45,393 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:23:45,394 - INFO - 重登管理员
+2018-12-12 11:23:45,394 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:25:06,026 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:25:06,050 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:06,054 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:06,054 - INFO - 用户正确密码正确
+2018-12-12 11:25:06,055 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:25:06,081 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:06,083 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:06,084 - INFO - 用户登录，密码错误
+2018-12-12 11:25:06,084 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544585106.0807583", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:06,109 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:06,111 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:06,111 - INFO - 获取当前管理员信息
+2018-12-12 11:25:06,111 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544585106.10776", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:06,136 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:06,138 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:06,138 - INFO - 更新当前管理员信息
+2018-12-12 11:25:06,138 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544585106.1357615", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:06,157 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:06,159 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:06,160 - INFO - 重登管理员
+2018-12-12 11:25:06,160 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:25:25,425 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:25:25,447 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:25,449 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:25,450 - INFO - 用户正确密码正确
+2018-12-12 11:25:25,450 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:25:25,475 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:25,477 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:25,477 - INFO - 用户登录，密码错误
+2018-12-12 11:25:25,477 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544585125.4748678", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:25,502 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:25,504 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:25,505 - INFO - 获取当前管理员信息
+2018-12-12 11:25:25,505 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544585125.500869", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:25,528 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:25,530 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:25,530 - INFO - 更新当前管理员信息
+2018-12-12 11:25:25,530 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544585125.5278707", "device": "", "module": "WEBADMIN", "token": "eRVwrnBGQKIYBqleatOgk6Ov04bQ9vPoc8OBtvLP", "version": "3.0.3.2"}
+2018-12-12 11:25:25,548 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8090
+2018-12-12 11:25:25,551 - DEBUG - http://127.0.0.1:8090 "POST / HTTP/1.1" 405 87
+2018-12-12 11:25:25,551 - INFO - 重登管理员
+2018-12-12 11:25:25,552 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:27:57,316 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:27:57,317 - INFO - ==============================[开始执行用户信息模块接口用例]==============================
+2018-12-12 11:27:57,318 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:27:57,319 - INFO - ==============================[开始执行高级设置模块接口用例]==============================
+2018-12-12 11:27:57,339 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,383 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 357
+2018-12-12 11:27:57,430 - INFO - 用户正确密码正确
+2018-12-12 11:27:57,431 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xR4lwbR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL",
+"action":"login",
+"device": "",
+"id": 1543386059,
+"module": "WEBADMIN",
+"token": "",
+"version":"3.0.3.2"
+}
+2018-12-12 11:27:57,448 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,488 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 318
+2018-12-12 11:27:57,527 - INFO - 用户登录，密码错误
+2018-12-12 11:27:57,527 - INFO - {"UK": "0Jy5NLeNJP5plYROv6zAmMd1DwknVE4V55wWGqboyVW2Qa30EZ48XBKjrG9xk617926YGrQ5ol0vAkZPD8wOL", "action": "login", "device": "", "id": "1544585277.4475598", "module": "WEBADMIN", "token": "wzAeQk2l8PHX61Oo3feZabLnlbKdnDy5oWEw9CZ9", "version": "3.0.3.2"}
+2018-12-12 11:27:57,544 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,580 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 341
+2018-12-12 11:27:57,624 - INFO - 获取当前管理员信息
+2018-12-12 11:27:57,624 - INFO - {"action": "SELECT_ADMIN", "adminId": 1, "id": "1544585277.5435653", "device": "", "module": "WEBADMIN", "token": "wzAeQk2l8PHX61Oo3feZabLnlbKdnDy5oWEw9CZ9", "version": "3.0.3.2"}
+2018-12-12 11:27:57,651 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,697 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 11:27:57,725 - INFO - 更新当前管理员信息
+2018-12-12 11:27:57,725 - INFO - {"action": "UPDATE_ADMIN", "adminId": 1, "newAccount": "xuegao", "newPassword": "NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw", "oldPassword": "bR4BMXN3VJpKWyxaeE1jzmq651jXLpykQTrZ983G617926YGrQ5ol0vAkZPD8wOL", "id": "1544585277.6495717", "device": "", "module": "WEBADMIN", "token": "wzAeQk2l8PHX61Oo3feZabLnlbKdnDy5oWEw9CZ9", "version": "3.0.3.2"}
+2018-12-12 11:27:57,739 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,782 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:27:57,822 - INFO - 重登管理员
+2018-12-12 11:27:57,822 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:27:57,838 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,870 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 677
+2018-12-12 11:27:57,894 - INFO - 获取用户列表
+2018-12-12 11:27:57,894 - INFO - {"action": "SELECT_USERS", "count": 13, "order": 1, "orderBy": "id", "page": 1, "query": "", "id": "1544585277.837582", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:57,894 - INFO - {'users': [{'status': 0, 'userLockedStartTime': 0, 'account': 'test', 'password': 'pzQCy79Ka4F2zkbxJ6Qn6RXwfd9YeRsR4590e1bfb36df8764ce807aabdd4ce97a113bda5e892a8e2306354b96a8fb440', 'downloadSpeed': 0, 'name': 'Experience Account', 'permission': 255, 'loginFailTimes': 0, 'company': None, 'created': 1544584962.0, 'remark': None, 'phone': None, 'uploadSpeed': 0, 'email': 'test@raysync.io', 'accountType': 2, 'address': None, 'id': 1000, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}], 'totalCount': 1, 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SELECT_USERS_RESPONSE', 'message': 'OK', 'id': '1544585277.837582'}
+2018-12-12 11:27:57,913 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:57,952 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 185
+2018-12-12 11:27:57,981 - INFO - 新建用户
+2018-12-12 11:27:57,982 - INFO - {"action": "CREATE_USER", "user": {"account": "test1", "address": "", "company": "", "created": 0, "downloadSpeed": 100, "email": "", "home": "", "name": "\u6d4b\u8bd5\u8d26\u53f7", "password": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "permission": 255, "phone": "", "remark": "", "status": 0, "uploadSpeed": 100}, "id": "1544585277.9125865", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:57,982 - INFO - {'userId': 1001, 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'CREATE_USER_RESPONSE', 'message': 'OK', 'id': '1544585277.9125865', 'user': {}}
+2018-12-12 11:27:57,998 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,033 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 643
+2018-12-12 11:27:58,076 - INFO - 获取用户信息
+2018-12-12 11:27:58,076 - INFO - {"action": "SELECT_USER", "userId": 1001, "id": "1544585277.9975913", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,076 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SELECT_USER_RESPONSE', 'message': 'OK', 'id': '1544585277.9975913', 'user': {'status': 0, 'userLockedStartTime': 0, 'account': 'test1', 'password': 'IIVTpxmrH8EUWIETozyvjrvyHEB5ULmDe6a902b11a785870cfeeb0f743d6b65442f4739ccaf04565f90723a26feacc7b', 'downloadSpeed': 100, 'name': '测试账号', 'permission': 255, 'loginFailTimes': 0, 'company': '', 'created': 1544585326, 'remark': '', 'phone': '', 'uploadSpeed': 100, 'email': '', 'accountType': 2, 'address': '', 'id': 1001, 'home': '', 'userLockedFlag': False, 'userLockedFinishTime': 0}}
+2018-12-12 11:27:58,095 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,136 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 157
+2018-12-12 11:27:58,162 - INFO - 更新用户
+2018-12-12 11:27:58,163 - INFO - {"action": "UPDATE_USER", "id": "1544585278.0895967", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2", "user": {"status": 0, "userLockedStartTime": 0, "account": "test1", "password": "IIVTpxmrH8EUWIETozyvjrvyHEB5ULmDe6a902b11a785870cfeeb0f743d6b65442f4739ccaf04565f90723a26feacc7b", "downloadSpeed": 100, "name": "\u6d4b\u8bd5\u8d26\u53f7", "permission": 0, "loginFailTimes": 0, "company": "", "created": 1544585326, "remark": "", "phone": "", "uploadSpeed": 1000, "email": "", "accountType": 2, "address": "", "id": 1001, "home": "", "userLockedFlag": false, "userLockedFinishTime": 0}}
+2018-12-12 11:27:58,163 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'UPDATE_USER_RESPONSE', 'message': 'OK', 'id': '1544585278.0895967'}
+2018-12-12 11:27:58,180 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,218 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 159
+2018-12-12 11:27:58,241 - INFO - 更新用户密码
+2018-12-12 11:27:58,241 - INFO - {"action": "UPDATE_USERPWD", "newpassword": "pA01mMO5YNoBJGkexLKEPnxaklzV3N2xTPJxpDoGR1g8XrVvZy4DbRazd639WQlw", "userId": "1001", "id": "1544585278.179602", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,241 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'UPDATE_USERPWD_RESPONSE', 'message': 'OK', 'id': '1544585278.179602'}
+2018-12-12 11:27:58,259 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,292 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:27:58,318 - INFO - 用户锁定
+2018-12-12 11:27:58,318 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": true, "userId": 1001, "id": "1544585278.2586064", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,318 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1544585278.2586064'}
+2018-12-12 11:27:58,336 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,373 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 166
+2018-12-12 11:27:58,398 - INFO - 用户解锁
+2018-12-12 11:27:58,398 - INFO - {"action": "SET_USER_LOCK_STATUS", "status": false, "userId": 1001, "id": "1544585278.3356106", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,398 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SET_USER_LOCK_STATUS_RESPONSE', 'message': 'OK', 'id': '1544585278.3356106'}
+2018-12-12 11:27:58,414 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,457 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 156
+2018-12-12 11:27:58,495 - INFO - 删除用户
+2018-12-12 11:27:58,496 - INFO - {"action": "DELETE_USER", "clearData": false, "user": {"id": 1000}, "id": "1544585278.413615", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,496 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'DELETE_USER_RESPONSE', 'message': 'OK', 'id': '1544585278.413615'}
+2018-12-12 11:27:58,519 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,552 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 300
+2018-12-12 11:27:58,556 - INFO - 获取服务器实时监控信息
+2018-12-12 11:27:58,557 - INFO - {"action": "performance", "id": "1544585278.5186212", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,557 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 69187694592, 'diskTotalSize': 107562389504, 'module': 'WEBSRV', 'cpuUsage': 0, 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 1040, 'netcards': [], 'action': 'PERFORMANCE_RESPONSE', 'message': 'not found netcard', 'runtime': 0, 'id': '1544585278.5186212'}
+2018-12-12 11:27:58,575 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,609 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 288
+2018-12-12 11:27:58,633 - INFO - 获取服务器license激活信息
+2018-12-12 11:27:58,633 - INFO - {"action": "license", "id": "1544585278.5746245", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,633 - INFO - {'product_id': 0, 'low_bound_bandwidth': '', 'activate_date': '', 'duration': '', 'max_bandwidth': '', 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'expire_date': '', 'action': 'LICENSE_RESPONSE', 'actived': 0, 'message': 'OK', 'id': '1544585278.5746245'}
+2018-12-12 11:27:58,649 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,686 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 1066
+2018-12-12 11:27:58,747 - INFO - 获取服务器信息
+2018-12-12 11:27:58,747 - INFO - {"action": "SELECT_SERVER", "serverId": 1, "id": "1544585278.6486285", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,747 - INFO - {'restartStatus': 0, 'module': 'WEBSRV', 'server': {'socketBufSize': 262144, 'apiport': 8090, 'packageSize': 1200, 'connTimeout': 120, 'downloadOccupied': 1, 'uploadSpeed': 0, 'portBegin': 1, 'outbound': 104857600, 'compression': 1, 'enableProxy': 1, 'ipFilter': None, 'id': 1000, 'port': 2121, 'ipFilterExclude': None, 'version': '3.0.3.6', 'threadNums': 100, 'loginTimeout': 60, 'status': 0, 'inbound': 104857600, 'keyPassword': None, 'proxyHost': '', 'host': '', 'noTransferTimeout': 600, 'device': '00:16:3e:06:26:a6', 'downloadSpeed': 0, 'certificateFile': None, 'proxyPort': 32001, 'remark': None, 'name': 'RaySync Server', 'license': '', 'created': 1544584962.0, 'loglevel': 1, 'speedLimitType': 0, 'privateKeyFile': None, 'enableFTPS': 0, 'portEnd': 65535, 'ipBind': '*', 'directory': '/home/3.0.3.6/RaySync_3.0.3.6/user', 'maxUserCount': 0, 'os': 'Linux-2.6.32-696.6.3.el6.x86_64-x86_64-with-centos-6.8-Final-x86_64'}, 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SELECT_SERVER_RESPONSE', 'message': 'OK', 'id': '1544585278.6486285'}
+2018-12-12 11:27:58,764 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,812 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 158
+2018-12-12 11:27:58,834 - INFO - 更新服务器信息
+2018-12-12 11:27:58,834 - INFO - {"action": "UPDATE_SERVER", "id": "1544585278.759635", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2", "server": {"socketBufSize": 262144, "apiport": 8090, "packageSize": 1200, "connTimeout": 120, "downloadOccupied": 1, "uploadSpeed": 0, "portBegin": 1, "outbound": 104857600, "compression": 1, "enableProxy": 1, "ipFilter": null, "id": 1000, "port": 2121, "ipFilterExclude": null, "version": "3.0.3.6", "threadNums": 100, "loginTimeout": 60, "status": 0, "inbound": 104857600, "keyPassword": null, "proxyHost": "", "host": "", "noTransferTimeout": 600, "device": "00:16:3e:06:26:a6", "downloadSpeed": 0, "certificateFile": null, "proxyPort": 32001, "remark": null, "name": "xuegao server", "license": "57d7ccc66356e", "created": 1544584962.0, "loglevel": 1, "speedLimitType": 0, "privateKeyFile": null, "enableFTPS": 1, "portEnd": 65535, "ipBind": "*", "directory": "/home/3.0.3.6/RaySync_3.0.3.6/user", "maxUserCount": 0, "os": "Linux-2.6.32-696.6.3.el6.x86_64-x86_64-with-centos-6.8-Final-x86_64"}}
+2018-12-12 11:27:58,834 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_RESPONSE', 'message': 'OK', 'id': '1544585278.759635'}
+2018-12-12 11:27:58,852 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:27:58,910 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 154
+2018-12-12 11:27:58,950 - INFO - 关闭传输服务器
+2018-12-12 11:27:58,950 - INFO - {"action": "shutdown", "id": "1544585278.8516402", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:27:58,950 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SHUTDOWN_RESPONSE', 'message': 'OK', 'id': '1544585278.8516402'}
+2018-12-12 11:27:58,971 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:00,227 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 150
+2018-12-12 11:28:00,255 - INFO - 启动传输服务器
+2018-12-12 11:28:00,255 - INFO - {"action": "start", "id": "1544585278.970647", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:00,255 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'START_RESPONSE', 'message': 'OK', 'id': '1544585278.970647'}
+2018-12-12 11:28:00,271 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,554 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 153
+2018-12-12 11:28:04,582 - INFO - 重启传输服务器
+2018-12-12 11:28:04,582 - INFO - {"action": "restart", "id": "1544585280.2707212", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:04,582 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'RESTART_RESPONSE', 'message': 'OK', 'id': '1544585280.2707212'}
+2018-12-12 11:28:04,601 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,639 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 327
+2018-12-12 11:28:04,662 - INFO - 获取邮箱信息
+2018-12-12 11:28:04,662 - INFO - {"action": "GET_SERVER_EMAIL", "id": "1544585284.6009693", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:04,662 - INFO - {'emailSender': '', 'emailAccount': '', 'emailSmtpPort': 465, 'emailSmtpHost': 'smtp.exmail.qq.com', 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'emailFromName': '', 'result': 0, 'emailPassword': '', 'emailEncryptType': 1, 'action': 'GET_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1544585284.6009693'}
+2018-12-12 11:28:04,680 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,716 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 165
+2018-12-12 11:28:04,751 - INFO - 设置邮箱信息
+2018-12-12 11:28:04,751 - INFO - {"action": "UPDATE_SERVER_EMAIL", "emailAccount": "test@test.com", "emailEncryptType": 1, "emailFromName": "test", "emailPassword": "0VX8vaQRzyOD5wp2r4mN31E9gYDBJ4Pey53s2554nVkojGZM0YJb6PAlKexLBdWQ", "emailSender": "test@test.com", "emailSmtpHost": "smtp.exmail.qq.com", "emailSmtpPort": 465, "id": "1544585284.6799736", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:04,751 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'UPDATE_SERVER_EMAIL_RESPONSE', 'message': 'OK', 'id': '1544585284.6799736'}
+2018-12-12 11:28:04,768 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,810 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 167
+2018-12-12 11:28:04,834 - INFO - 设置高级配置
+2018-12-12 11:28:04,835 - INFO - {"action": "SET_ADVANCED_SETTINGS", "cdn": 0, "downloadSpeed": "100000", "uploadSpeed": "10000", "id": "1544585284.7679784", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:04,835 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544585284.7679784'}
+2018-12-12 11:28:04,852 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,890 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:28:04,911 - INFO - 获取高级配置
+2018-12-12 11:28:04,912 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544585284.8509834", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:04,912 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544585284.8509834'}
+2018-12-12 11:28:04,929 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:04,961 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 169
+2018-12-12 11:28:04,964 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:05,001 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 169
+2018-12-12 11:28:05,041 - INFO - 获取实时传输列表
+2018-12-12 11:28:05,042 - INFO - {"action": "sessions", "id": "1544585284.928988", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:05,042 - INFO - {'sessions': [], 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'SESSIONS_RESPONSE', 'message': 'OK', 'id': '1544585284.928988'}
+2018-12-12 11:28:05,067 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:05,100 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:28:05,102 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:05,140 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 224
+2018-12-12 11:28:05,179 - INFO - 获取日志列表
+2018-12-12 11:28:05,180 - INFO - {"action": "GET_ADVANCED_SETTINGS", "id": "1544585285.0659957", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:05,180 - INFO - {'downloadSpeed': 100000, 'cdn': 0, 'module': 'WEBSRV', 'uploadSpeed': 10000, 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'GET_ADVANCED_SETTINGS_RESPONSE', 'message': 'OK', 'id': '1544585285.0659957'}
+2018-12-12 11:28:05,197 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:05,233 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 151
+2018-12-12 11:28:05,271 - INFO - 用户退出
+2018-12-12 11:28:05,271 - INFO - {"action": "logout", "id": "1544585285.196003", "device": "", "module": "WEBADMIN", "token": "GMWqv2n4R5HlM3Vn5iBWkLlmQPBDjAypUeEOyWJK", "version": "3.0.3.2"}
+2018-12-12 11:28:05,271 - INFO - {'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'action': 'LOGOUT_RESPONSE', 'message': 'OK', 'id': '1544585285.196003'}
+2018-12-12 11:28:40,016 - INFO - ==============================[开始执行管理员登录模块接口用例]==============================
+2018-12-12 11:28:40,035 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:40,082 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 358
+2018-12-12 11:28:40,126 - INFO - 重登管理员
+2018-12-12 11:28:40,126 - INFO - {  "UK":"pvZJ4l03aKbExXRQMN5PdZjBmOqPpXBDv9wRyqvkpG8oA1V9LyDzWY6wr2eJ5R06NbR4BMXN3VJpKWyxaeE1jzmq651YBBNOVOs3bO9L7926YGrQ5ol0vAkZPD8wOLdw",
+"action": "login",
+"device": "",
+"id": 1541558118,
+"module": "WEBADMIN",
+"version":"3.0.3.2"
+}
+2018-12-12 11:28:40,126 - INFO - {'account': 'xuegao', 'reconnectcnt': 0, 'softVersion': 1, 'userId': 1, 'module': 'WEBSRV', 'device': '00:16:3e:06:26:a6', 'token': 'E3rLV9lWBns5eYrNqtp2L1BxWR4kPoxaVIIfGfE5', 'version': 1, 'result': 0, 'protocol_version': '3.0.3.6', 'action': 'LOGIN_RESPONSE', 'actived': 0, 'message': 'OK', 'client_version': '3.0.3.6', 'id': 1541558118, 'plat_version': 0}
+2018-12-12 11:28:45,758 - INFO - ==============================[开始执行服务器信息模块接口用例]==============================
+2018-12-12 11:28:45,782 - DEBUG - Starting new HTTP connection (1): 119.23.175.202:8090
+2018-12-12 11:28:45,820 - DEBUG - http://119.23.175.202:8090 "POST /api HTTP/1.1" 200 394
+2018-12-12 11:28:45,845 - INFO - 获取服务器实时监控信息
+2018-12-12 11:28:45,845 - INFO - {"action": "performance", "id": "1544585325.7783241", "device": "", "module": "WEBADMIN", "token": "E3rLV9lWBns5eYrNqtp2L1BxWR4kPoxaVIIfGfE5", "version": "3.0.3.2"}
+2018-12-12 11:28:45,845 - INFO - {'userOnlineNum': 0, 'diskFreeSize': 69187649536, 'diskTotalSize': 107562389504, 'module': 'WEBSRV', 'cpuUsage': 5, 'device': '00:16:3e:06:26:a6', 'version': 1, 'result': 0, 'netcards': [{'netcardName': 'eth1', 'downSpeed': 912, 'upSpeed': 992}, {'netcardName': 'eth0', 'downSpeed': 0, 'upSpeed': 0}], 'action': 'PERFORMANCE_RESPONSE', 'message': 'OK', 'runtime': 0, 'id': '1544585325.7783241'}

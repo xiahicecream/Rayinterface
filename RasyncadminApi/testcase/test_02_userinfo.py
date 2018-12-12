@@ -30,39 +30,56 @@ class UserInfo(TestCase):
         self.apiname=read_excel(self.sheetNAME,row,2)
         self.parameter=Headers(read_excel('publicData',4,1),read_excel('Userinfo',row,5))
         self.requestHandler(reqdata=self.parameter,row=row)
-
     def test_userinfo2(self,row=3):
         '''新建用户'''
         self.apiname=read_excel(self.sheetNAME,row,2)
         self.parameter=Headers(read_excel('publicData',4,1),read_excel('Userinfo',row,5))
         self.requestHandler(reqdata=self.parameter,row=row)
 
-    # def test_userinfo3(self,row=4):
-    #     '''更新用户'''
-    #     self.apiname=read_excel(self.sheetNAME,row,2)
-    #     self.parameter=Headers(read_excel('publicData',4,1),read_excel('Userinfo',row,5))
-    #     print(self.parameter)
-    #     self.requestHandler(reqdata=self.parameter,row=row)
+    def test_userinfo3(self,row=8):
+        '''获取用户'''
+        self.apiname=read_excel(self.sheetNAME,row,2)
+        self.parameter=Headers(read_excel('publicData',4,1),read_excel('Userinfo',row,5))
+        self.requestHandler(reqdata=self.parameter,row=row)
+        a=self.dd['user']
+        a=json.dumps(a)
+        write_excel(self.sheetNAME,4,5,a)
 
-    def test_userinfo4(self,row=5):
+    def test_userinfo4(self,row=4):
+        '''更新用户'''
+        self.apiname=read_excel(self.sheetNAME,row,2)
+        self.a = {"action": "UPDATE_USER"}
+        self.a = json.dumps(self.a)
+        self.parameter = Headers(read_excel('publicData', 4, 1), self.a)  # 将公共部分与action合并
+        self.parameter = json.loads(self.parameter)  # 转换成python字典
+        self.user = read_excel(self.sheetNAME, row, 5)  # 取出excel的user值
+        self.user = json.loads(self.user)  # 将user内信息转换为字典
+        self.parameter['user'] = self.user  # 添加表中user新的键与键值
+
+        self.parameter['user']['uploadSpeed'] = 1000 # 更新上传速度
+        self.parameter['user']['permission'] = 0  # 修改为无权限
+        print(self.parameter)
+        self.parameter = json.dumps(self.parameter)  # 转换成json格式进行http请求
+        self.requestHandler(reqdata=self.parameter,row=row)
+    def test_userinfo5(self,row=5):
         '''更新密码'''
         self.apiname=read_excel(self.sheetNAME,row,2)
         self.parameter=Headers(read_excel('publicData',4,1),read_excel('Userinfo',row,5))
         self.requestHandler(reqdata=self.parameter,row=row)
 
-    def test_userinfo5(self, row=6):
+    def test_userinfo6(self, row=6):
         '''用户锁定'''
         self.apiname = read_excel(self.sheetNAME, row, 2)
         self.parameter = Headers(read_excel('publicData', 4, 1), read_excel('Userinfo', row, 5))
         self.requestHandler(reqdata=self.parameter, row=row)
 
-    def test_userinfo6(self, row=7):
+    def test_userinfo7(self, row=7):
         '''用户解锁'''
         self.apiname = read_excel(self.sheetNAME, row, 2)
         self.parameter = Headers(read_excel('publicData', 4, 1), read_excel('Userinfo', row, 5))
         self.requestHandler(reqdata=self.parameter, row=row)
 
-    def test_userinfo7(self, row=2):
+    def test_userinfo8(self, row=2):
         '''用户删除'''
         self.apiname = read_excel(self.sheetNAME, row, 2)
         self.parameter = Headers(read_excel('publicData', 4, 1), read_excel('Userinfo', row, 5))
